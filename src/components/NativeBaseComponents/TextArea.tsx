@@ -8,38 +8,44 @@ export const Example = () => {
 				<Box
 					position="relative"
 					_light={{
-						bg: 'green.100',
+						bg: 'teal.900',
 					}}
 					_dark={{
-						bg: 'green.600',
+						bg: 'green.700',
 					}}
 					h="8px"
 					rounded="pill"
-					w="40%"
+					w={{base: "60%", lg: "40%"}}
 					mx={5}
 					mb={2}
 				/>
 				<Box
 					position="relative"
 					_light={{
-						bg: 'green.100',
+						bg: 'teal.900',
 					}}
 					_dark={{
-						bg: 'green.600',
+						bg: 'green.700',
 					}}
 					h="8px"
 					rounded="pill"
-					w="30%"
+					w={{ base: "40%", lg: "30%"}}
 					mx={5}
 				/>
 			</Box>
-			<TextArea aria-label="textArea1" mt={4} w="100%" h={20}  zIndex={-1} borderWidth={0} 
-			_light={{
-				bg: 'teal.500',
-			}}
-			_dark={{
-				bg: 'green.300',
-			}}
+			<TextArea 
+				aria-label="textArea-demo" 
+				mt={4} 
+				w="100%" 
+				h={20}  
+				zIndex={-1}
+				borderWidth={0} 
+				_light={{
+					bg: 'teal.500',
+				}}
+				_dark={{
+					bg: 'green.100',
+				}}
 			/>
 			{/* <Box w="100%" h={20} bg="red.200" zIndex={-1}></Box> */}
 		</VStack>

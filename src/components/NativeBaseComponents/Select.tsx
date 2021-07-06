@@ -23,6 +23,5 @@ export const Example = () => {
 				mx={5}
 			/>
 		</VStack>
-		// </Box>
 	);
 };

@@ -1,6 +1,10 @@
 import React from 'react';
-import { Switch, HStack, Text } from 'native-base';
+import { Switch, FormControl } from 'native-base';
 
 export const Example = () => {
-	return <Switch />;
+  return (
+    <FormControl.Label>
+      <Switch />
+    </FormControl.Label>
+  );
 };

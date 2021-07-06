@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Checkbox } from 'native-base';
+import { Box, Checkbox, FormControl } from 'native-base';
+
 
 export const Example = () => {
 	return (
@@ -14,7 +15,9 @@ export const Example = () => {
 			}}
 			opacity={0.5}
 		>
-			<Checkbox value="" isChecked={true} colorScheme="red" />
+			<FormControl.Label>
+				<Checkbox value="" isChecked={true} colorScheme="red" aria-label="chk123"/>
+			</FormControl.Label>
 		</Box>
 	);
 };
