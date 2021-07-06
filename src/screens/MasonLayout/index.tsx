@@ -15,7 +15,6 @@ import {
 	Stagger,
 	IconButton,
 } from 'native-base';
-import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { mapping } from '../../config/map';
 import { Dimensions, ScrollView, StatusBar } from 'react-native';
 import { MasonaryLayout } from '../../components/MasonLayout/MasonaryLayout';
@@ -333,7 +332,7 @@ export function MasonLayout({
 							color: 'teal.100',
 						}}
 					/>
-					{/* <StoryBook
+					<StoryBook
 						navigation={navigation}
 						name="KeyboardAvoidingView"
 						minH={32}
@@ -345,7 +344,7 @@ export function MasonLayout({
 							color: 'lime.100',
 						}}
 						// colors={['red.400', 'amber.400']}
-					/> */}
+					/>
 					<StoryBook
 						navigation={navigation}
 						name="Link"

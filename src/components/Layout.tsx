@@ -96,6 +96,7 @@ export const Layout = ({
 									// }}
 									_web={{ py: 2 }}
 									isTruncated
+									flex={1}
 								>
 									{title ? title : 'NativeBase'}
 								</Heading>
