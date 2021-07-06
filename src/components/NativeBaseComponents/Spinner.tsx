@@ -11,6 +11,7 @@ export const Example = () => {
 			style={{
 				transform: [{ rotate: '77deg' }],
 			}}
+			aria-label="spinner"
 		/>
 	);
 };

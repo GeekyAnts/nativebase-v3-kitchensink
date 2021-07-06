@@ -14,8 +14,8 @@ export const Example = () => {
 			}}
 			opacity={0.5}
 		>
-			<Radio.Group name="exampleGroup" value="1">
-				<Radio value="1" colorScheme="orange" />
+			<Radio.Group name="exampleGroup" value="1" nativeID="r1">
+				<Radio value="1" colorScheme="orange" />				
 			</Radio.Group>
 		</Box>
 	);
