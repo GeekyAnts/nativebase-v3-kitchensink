@@ -332,7 +332,7 @@ export function MasonLayout({
 							color: 'teal.100',
 						}}
 					/>
-					{/* <StoryBook
+					<StoryBook
 						navigation={navigation}
 						name="KeyboardAvoidingView"
 						minH={32}
@@ -344,7 +344,7 @@ export function MasonLayout({
 							color: 'lime.100',
 						}}
 						// colors={['red.400', 'amber.400']}
-					/> */}
+					/>
 					<StoryBook
 						navigation={navigation}
 						name="Link"
