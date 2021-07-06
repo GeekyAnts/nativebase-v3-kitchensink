@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Radio } from 'native-base';
+import { Box, Radio, FormControl } from 'native-base';
 
 export const Example = () => {
 	return (
@@ -15,7 +15,9 @@ export const Example = () => {
 			opacity={0.5}
 		>
 			<Radio.Group name="exampleGroup" value="1" nativeID="r1">
-				<Radio value="1" colorScheme="orange" />				
+				<FormControl.Label>
+					<Radio value="1" colorScheme="orange" aria-label="radio"/>				
+				</FormControl.Label>
 			</Radio.Group>
 		</Box>
 	);
