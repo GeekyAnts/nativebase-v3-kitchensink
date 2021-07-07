@@ -3,9 +3,9 @@ import { Slider, FormControl } from 'native-base';
 
 export const Example = () => {
 	return (
-		<FormControl.Label nativeID="sliderLabel">
+		<FormControl.Label nativeID="sliderLabel" w="80%">
 			<Slider 
-				defaultValue={70} colorScheme="fuchsia" w="80%" 
+				defaultValue={70} colorScheme="fuchsia" w="100%" 
 				aria-label="slider-example" 
 				accessibilityLabel="slider example"
 				aria-labelledby="sliderLabel"
