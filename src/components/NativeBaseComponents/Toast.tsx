@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, HStack, VStack, Center, Box } from 'native-base';
+import { HStack, VStack, Box } from 'native-base';
 
 export const Example = () => {
 	return (

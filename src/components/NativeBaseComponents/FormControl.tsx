@@ -1,25 +1,18 @@
 import React from 'react';
-import { Input, VStack, Box, Checkbox, CheckIcon } from 'native-base';
+import { VStack, Box } from 'native-base';
 
 
 export const Example = () => {
   return (
     <Box 
-      // justifyContent="center"
       w={{ base: "80%", lg: "50%" }}
       mt= {3}
       alignSelf="center"
       p={3}
     >
       <VStack
-        // justifyContent="center"
         alignItems="center"
-        // w="50%"
         py={3}
-        
-        // h={40}
-
-        
         _light={{
           bg: 'lightBlue.400',
           
@@ -42,7 +35,6 @@ export const Example = () => {
           }}
           h="8px"
           rounded="pill"
-          // mx={4}
           w="80%"
           
         />
@@ -55,7 +47,6 @@ export const Example = () => {
           }}
           h="8px"
           rounded="pill"
-          // mx={4}
           w="80%"
         
         />
@@ -69,7 +60,6 @@ export const Example = () => {
           }}
           h="8px"
           rounded="pill"
-          // mx={4}
           w="80%"
           
         />
@@ -82,7 +72,6 @@ export const Example = () => {
           }}
           h="8px"
           rounded="pill"
-          // mx={4}
           w="80%"
           
         />
@@ -100,7 +89,6 @@ export const Example = () => {
           h="8px"
           rounded="pill"
           w="47%"
-          // mx={4}
         />
         </Box>
 

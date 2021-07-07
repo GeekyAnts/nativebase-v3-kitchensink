@@ -1,13 +1,11 @@
 import React from 'react';
 import { Box, VStack, Divider, Center } from 'native-base';
-import { Pressable } from 'react-native';
 
 export function Example() {
 	return (
 		<Center w="80%">
 			<Box position="relative" alignItems="flex-end">
 				<Box
-					// _text={{ color: 'white' }}
 					p={2}
 					right={0}
 					w={10}

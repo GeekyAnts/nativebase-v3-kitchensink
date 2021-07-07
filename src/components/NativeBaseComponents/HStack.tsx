@@ -1,5 +1,5 @@
 import React from 'react';
-import { HStack, Box, Divider } from 'native-base';
+import { HStack, Box } from 'native-base';
 
 export function Example() {
 	return (

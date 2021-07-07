@@ -2,8 +2,6 @@ import React from 'react';
 import { Select, Box, VStack } from 'native-base';
 
 export const Example = () => {
-	let [language, setLanguage] = React.useState('');
-
 	return (
 		<VStack justifyContent="center" w="80%">
 			<Select isDisabled>

@@ -1,28 +1,9 @@
 import React from 'react';
 import { StackNavigationProp } from '@react-navigation/stack';
-import {
-	Box,
-	useColorMode,
-	Heading,
-	HStack,
-	Text,
-	useBreakpointValue,
-	Fab,
-	Icon,
-	useColorModeValue,
-	MoonIcon,
-	SunIcon,
-	Stagger,
-	IconButton,
-} from 'native-base';
-import { mapping } from '../../config/map';
-import { Dimensions, ScrollView, StatusBar } from 'react-native';
+import { useBreakpointValue } from 'native-base';
+import { ScrollView } from 'react-native';
 import { MasonaryLayout } from '../../components/MasonLayout/MasonaryLayout';
-import { MasonMobile } from '../../components/MasonLayout/mobile';
-import { MasonWeb } from '../../components/MasonLayout/web';
-import { Logo } from '../../components/Logo';
 import { StoryBook } from '../../components/StoryBook';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Layout } from '../../components/Layout';
 
 export function MasonLayout({
@@ -680,12 +661,6 @@ export function MasonLayout({
 						}}
 					/>
 				</MasonaryLayout>
-				{/* {isLargeScreen ? (
-					<MasonWeb navigation={navigation} />
-				) : (
-					// <MasonMobile navigation={navigation} />
-					<MasonMobile navigation={navigation} />
-				)} */}
 			</ScrollView>
 		</Layout>
 	);

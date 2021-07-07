@@ -1,10 +1,8 @@
-//@ts-nocheck
 import React from 'react';
 import { Stack, Box } from 'native-base';
-import { VStack } from '../../nb/NativeBase/src';
 
 export function Example() {
-  const [direction, setDirection] = React.useState('column');
+  
   return (
     <Box>
       <Stack direction="row" mt={3} shadow={6}>

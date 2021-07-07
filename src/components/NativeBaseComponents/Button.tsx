@@ -1,6 +1,5 @@
 import React from 'react';
-import { Button, Box } from 'native-base';
-import { borderColor } from 'styled-system';
+import { Box } from 'native-base';
 
 export const Example = () => {
 	return (

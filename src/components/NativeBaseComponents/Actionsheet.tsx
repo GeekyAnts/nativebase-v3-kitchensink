@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Divider, VStack, Skeleton, Box } from 'native-base';
+import { Divider, VStack, Box } from 'native-base';
 
 export const Example = () => {
 	return (
@@ -23,7 +23,6 @@ export const Example = () => {
 					/>
 				}
 				py={2}
-				// alignItems="center"
 				justifyContent="center"
 			>
 				<Box

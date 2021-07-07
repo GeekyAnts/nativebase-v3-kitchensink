@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, VStack, Center, Box } from 'native-base';
+import { Box } from 'native-base';
 export const Example = () => {
   return (
     <Box

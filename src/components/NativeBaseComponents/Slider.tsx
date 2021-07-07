@@ -14,7 +14,7 @@ export const Example = () => {
 				<Slider.Track>
 					<Slider.FilledTrack />
 				</Slider.Track>
-				<Slider.Thumb />
+				<Slider.Thumb aria-label="pointer of slider"/>
 			</Slider>
 		</FormControl.Label>
 	);

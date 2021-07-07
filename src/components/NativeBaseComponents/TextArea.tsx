@@ -47,7 +47,6 @@ export const Example = () => {
 					bg: 'teal.700',
 				}}
 			/>
-			{/* <Box w="100%" h={20} bg="red.200" zIndex={-1}></Box> */}
 		</VStack>
 	);
 };
