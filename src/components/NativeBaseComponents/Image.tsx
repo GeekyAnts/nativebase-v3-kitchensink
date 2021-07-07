@@ -3,7 +3,6 @@ import { Box } from 'native-base';
 export function Example() {
 	return (
 		<Box
-			// _text={{ color: 'white' }}
 			size={20}
 			rounded="lg"
 			_light={{

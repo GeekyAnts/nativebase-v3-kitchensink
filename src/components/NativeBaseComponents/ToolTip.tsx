@@ -1,5 +1,5 @@
 import React from 'react';
-import { VStack, Box, HStack } from 'native-base';
+import { VStack, Box } from 'native-base';
 
 export function Example() {
 	return (
@@ -12,7 +12,6 @@ export function Example() {
 			_dark={{
 				bg: 'violet.800',
 			}}
-			// space={4}
 			p={4}
 			justifyContent="center"
 		>
@@ -38,7 +37,6 @@ export function Example() {
 				size={4}
 				right={5}
 				bottom={-8}
-				// zIndex={-1}
 				position="absolute"
 				style={{
 					transform: [{ rotate: '45deg' }],

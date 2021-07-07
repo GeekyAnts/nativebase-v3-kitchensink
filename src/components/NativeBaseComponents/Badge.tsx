@@ -14,7 +14,6 @@ export function Example() {
 			<Box
 				_light={{
 					bg: 'green.800',
-					// bg: 'dark.200'
 				}}
 				_dark={{
 					bg: 'info.100',

@@ -1,6 +1,5 @@
 import React from 'react';
-import { ScrollView, StatusBar } from 'react-native';
-import { Header } from '../../components/Header';
+import { ScrollView } from 'react-native';
 import {
 	Heading,
 	VStack,
@@ -9,9 +8,6 @@ import {
 	useColorModeValue,
 	Divider,
 	Flex,
-	Fab,
-	Icon,
-	useBreakpointValue,
 } from 'native-base';
 import { mapping } from '../../config/map';
 import { StackNavigationProp } from '@react-navigation/stack';
@@ -35,25 +31,11 @@ export function Examples({
 			navigation={navigation}
 			navigateTo="Kitchensink | NativeBase"
 		>
-			{/* <Header title={component.title} navigation={navigation} /> */}
-
 			<ScrollView
 				contentContainerStyle={{ width: '100%' }}
 				showsVerticalScrollIndicator={false}
 			>
 				<VStack
-					// mx={2}
-					// space={2}
-					// p={{ base: 2, md: 8 }}
-					// alignItems={{ base: 'stretch', lg: 'center' }}
-					// w={{
-					// 	base: '100%',
-					// 	sm: '600px',
-					// 	md: '728px',
-					// 	lg: '984px',
-					// 	xl: '1240px',
-					// }}
-					// mx={'auto'}
 					w="100%"
 				>
 					{component.components.map((element: any, index: number) => (

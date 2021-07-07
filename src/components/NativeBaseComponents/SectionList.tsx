@@ -26,22 +26,11 @@ export const Example = () => {
       mt={5}
       bg="orange.100"
       w={{ base:"60%", lg: "35%"}}
-      // alignItems="center"
-      // mx="auto"
     >
-      {/* <Box position="absolute" w={2} h="100%" right={0} bg="gray.500">
-        <Box position="absolute" w={2} h={6} right={0} top={2} bg="gray.300" borderRadius={4}/>
-      </Box> */}
       <VStack space={3} m={2}  alignContent="center">
         <VStack space={1} alignContent="center">
           <Box
             w="40%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={3}
@@ -50,12 +39,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -63,12 +46,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -76,12 +53,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -92,12 +63,6 @@ export const Example = () => {
         <VStack space={1} alignContent="center">
           <Box
             w="40%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={3}
@@ -106,12 +71,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -119,12 +78,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -132,12 +85,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -148,12 +95,6 @@ export const Example = () => {
         <VStack space={1} alignContent="center">
           <Box
             w="40%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={3}
@@ -162,12 +103,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -175,12 +110,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}
@@ -188,12 +117,6 @@ export const Example = () => {
           />
           <Box
             w="100%"
-            // _light={{
-            //   bg: 'gray.600',
-            // }}
-            // _dark={{
-            //   bg: 'gray.100',
-            // }}
             bg="amber.500"
             opacity={0.5}
             h={1}

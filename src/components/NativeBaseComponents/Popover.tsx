@@ -12,7 +12,6 @@ export function Example() {
 			_dark={{
 				bg: 'darkBlue.600',
 			}}
-			// space={4}
 			p={4}
 			justifyContent="center"
 		>
@@ -25,7 +24,6 @@ export function Example() {
 						bg: 'gray.100',
 					}}
 					rounded="sm"
-					// h="11px"
 					w="30%"
 				/>
 				<VStack space={1} flex={1}>
@@ -70,7 +68,6 @@ export function Example() {
 			<HStack 
 			space={2}
 			mt={2}
-			// justifyContent="space-between"
 			justifyContent="flex-end"
 			>
 				<Box
@@ -163,7 +160,6 @@ export function Example() {
 				size={4}
 				right={5}
 				bottom={-8}
-				// zIndex={-1}
 				position="absolute"
 				style={{
 					transform: [{ rotate: '45deg' }],

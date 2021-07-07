@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pressable, Text, Box } from 'native-base';
+import { Pressable } from 'native-base';
 
 export function Example() {
   return (

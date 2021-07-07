@@ -1,28 +1,9 @@
 import React from 'react';
 import { StackNavigationProp } from '@react-navigation/stack';
-import {
-	Box,
-	useColorMode,
-	Heading,
-	HStack,
-	Text,
-	useBreakpointValue,
-	Fab,
-	Icon,
-	useColorModeValue,
-	MoonIcon,
-	SunIcon,
-	Stagger,
-	IconButton,
-} from 'native-base';
-import { mapping } from '../../config/map';
-import { Dimensions, ScrollView, StatusBar } from 'react-native';
+import { useBreakpointValue } from 'native-base';
+import { ScrollView } from 'react-native';
 import { MasonaryLayout } from '../../components/MasonLayout/MasonaryLayout';
-import { MasonMobile } from '../../components/MasonLayout/mobile';
-import { MasonWeb } from '../../components/MasonLayout/web';
-import { Logo } from '../../components/Logo';
 import { StoryBook } from '../../components/StoryBook';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Layout } from '../../components/Layout';
 
 export function MasonLayout({
@@ -91,7 +72,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Avatar"
-						// colors={['green.700', 'lime.200']}
+						
 						minH={48}
 						_box={{
 							lightGrad: ['violet.800', 'lightBlue.300'],
@@ -112,7 +93,7 @@ export function MasonLayout({
 						_heading={{
 							color: 'lime.100',
 						}}
-						// colors={['red.400', 'amber.400']}
+						
 					/>
 					<StoryBook
 						navigation={navigation}
@@ -125,13 +106,13 @@ export function MasonLayout({
 						_heading={{
 							color: 'pink.100',
 						}}
-						// colors={['blue.400', 'pink.400']}
+						
 					/>
 
 					<StoryBook
 						navigation={navigation}
 						name="Button"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={40}
 						_box={{
@@ -154,13 +135,13 @@ export function MasonLayout({
 						_heading={{
 							color: 'yellow.100',
 						}}
-						// colors={['fuchsia.400', 'pink.600']}
+						
 					/>
 
 					<StoryBook
 						navigation={navigation}
 						name="CheckBox"
-						// colors={['green.700', 'lime.200']}
+						
 
 						minH={32}
 						_box={{
@@ -187,7 +168,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Divider"
-						// colors={['blue.400', 'purple.400']}
+						
 
 						minH={40}
 						_box={{
@@ -201,7 +182,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Fab"
-						// colors={['cyan.500', 'emerald.300']}
+						
 						minH={40}
 						_box={{
 							lightGrad: ['green.400', 'lime.200'],
@@ -214,7 +195,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="FlatList"
-						// colors={['blue.400', 'purple.400']}
+						
 						minH={24}
 						_box={{
 							lightGrad: ['darkBlue.400', 'indigo.200'],
@@ -227,7 +208,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Flex"
-						// colors={['fuchsia.400', 'pink.400']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['cyan.400', 'teal.200'],
@@ -252,7 +233,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Heading"
-						// colors={['red.400', 'amber.400']}
+						
 
 						minH={32}
 						_box={{
@@ -266,7 +247,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="HStack"
-						// colors={['rose.500', 'amber.500']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['orange.400', 'yellow.200'],
@@ -280,7 +261,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Icon"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={32}
 						_box={{
@@ -295,7 +276,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="IconButton"
-						// colors={['cyan.500', 'emerald.300']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['blue.800', 'lightBlue.300'],
@@ -308,7 +289,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Image"
-						// colors={['green.700', 'lime.200']}
+						
 
 						minH={48}
 						_box={{
@@ -322,7 +303,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Input"
-						// colors={['red.400', 'amber.400']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['emerald.400', 'teal.200'],
@@ -343,12 +324,12 @@ export function MasonLayout({
 						_heading={{
 							color: 'lime.100',
 						}}
-						// colors={['red.400', 'amber.400']}
+						
 					/>
 					<StoryBook
 						navigation={navigation}
 						name="Link"
-						// colors={['blue.400', 'pink.400']}
+						
 						minH={24}
 						_box={{
 							lightGrad: ['rose.400', 'orange.300'],
@@ -361,7 +342,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Menu"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={64}
 						_box={{
@@ -376,7 +357,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Modal"
-						// colors={['green.700', 'lime.200']}
+						
 						minH={48}
 						_box={{
 							lightGrad: ['indigo.400', 'red.200'],
@@ -386,10 +367,10 @@ export function MasonLayout({
 							color: 'red.100',
 						}}
 					/>
-					{/* <StoryBook
+					<StoryBook
 						navigation={navigation}
 						name="Tabs"
-						// colors={['cyan.500', 'emerald.300']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['rose.400', 'red.200'],
@@ -398,28 +379,12 @@ export function MasonLayout({
 						_heading={{
 							color: 'red.100',
 						}}
-					/> */}
-
-					{/* 
-					<StoryBook
-						navigation={navigation}
-						name="VStack"
-						// colors={['rose.500', 'amber.500']}
-
-						minH={48}
-						_box={{
-							lightGrad: ['rose.400', 'red.200'],
-							darkGrad: ['rose.600', 'red.300'],
-						}}
-						_heading={{
-							color: 'red.100',
-						}}
-					/> */}
+					/>
 
 					<StoryBook
 						navigation={navigation}
 						name="Popover"
-						// colors={['fuchsia.400', 'pink.600']}
+						
 
 						minH={48}
 						_box={{
@@ -433,7 +398,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Pressable"
-						// colors={['cyan.500', 'emerald.300']}
+						
 						minH={40}
 						_box={{
 							lightGrad: ['green.400', 'lime.200'],
@@ -446,7 +411,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Progress"
-						// colors={['blue.400', 'purple.400']}
+						
 						minH={24}
 						_box={{
 							lightGrad: ['darkBlue.400', 'teal.200'],
@@ -459,7 +424,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Radio"
-						// colors={['rose.500', 'amber.500']}
+						
 
 						minH={40}
 						_box={{
@@ -473,7 +438,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="ScrollView"
-						// colors={['fuchsia.400', 'pink.400']}
+						
 
 						minH={32}
 						_box={{
@@ -487,7 +452,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="SectionList"
-						// colors={['rose.500', 'amber.500']}
+						
 						minH={56}
 						_box={{
 							lightGrad: ['violet.400', 'fuchsia.200'],
@@ -500,7 +465,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Select"
-						// colors={['fuchsia.400', 'pink.400']}
+						
 
 						minH={32}
 						_box={{
@@ -514,7 +479,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Slider"
-						// colors={['cyan.500', 'emerald.300']}
+						
 
 						minH={24}
 						_box={{
@@ -529,7 +494,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Spinner"
-						// colors={['rose.500', 'amber.500']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['green.400', 'yellow.200'],
@@ -542,7 +507,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Stack"
-						// colors={['red.400', 'amber.400']}
+						
 
 						minH={40}
 						_box={{
@@ -556,7 +521,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Switch"
-						// colors={['red.400', 'amber.400']}
+						
 
 						minH={32}
 						_box={{
@@ -570,7 +535,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Text"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={32}
 						_box={{
@@ -584,7 +549,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="TextArea"
-						// colors={['green.700', 'lime.200']}
+						
 
 						minH={40}
 						_box={{
@@ -599,7 +564,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Toast"
-						// colors={['red.400', 'amber.400']}
+						
 						minH={32}
 						_box={{
 							lightGrad: ['darkBlue.400', 'indigo.200'],
@@ -612,7 +577,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Tooltip"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={40}
 						_box={{
@@ -626,7 +591,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="Transitions"
-						// colors={['blue.400', 'pink.400']}
+						
 						minH={48}
 						_box={{
 							lightGrad: ['amber.400', 'yellow.200'],
@@ -639,7 +604,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="View"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={40}
 						_box={{
@@ -653,7 +618,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="VStack"
-						// colors={['blue.400', 'pink.400']}
+						
 
 						minH={40}
 						_box={{
@@ -668,7 +633,7 @@ export function MasonLayout({
 					<StoryBook
 						navigation={navigation}
 						name="ZStack"
-						// colors={['green.700', 'lime.200']}
+						
 						// flex={4}
 						minH={48}
 						_box={{
@@ -680,12 +645,6 @@ export function MasonLayout({
 						}}
 					/>
 				</MasonaryLayout>
-				{/* {isLargeScreen ? (
-					<MasonWeb navigation={navigation} />
-				) : (
-					// <MasonMobile navigation={navigation} />
-					<MasonMobile navigation={navigation} />
-				)} */}
 			</ScrollView>
 		</Layout>
 	);

@@ -12,7 +12,6 @@ export function Example() {
 			_dark={{
 				bg: 'darkBlue.600',
 			}}
-			// space={4}
 			p={4}
 			justifyContent="center"
 		>
