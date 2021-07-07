@@ -8,10 +8,10 @@ export const Example = () => {
 				<Box
 					position="relative"
 					_light={{
-						bg: 'teal.900',
+						bg: 'gray.600',
 					}}
 					_dark={{
-						bg: 'green.700',
+						bg: 'gray.100',
 					}}
 					h="8px"
 					rounded="pill"
@@ -22,10 +22,10 @@ export const Example = () => {
 				<Box
 					position="relative"
 					_light={{
-						bg: 'teal.900',
+						bg: 'gray.600',
 					}}
 					_dark={{
-						bg: 'green.700',
+						bg: 'gray.100',
 					}}
 					h="8px"
 					rounded="pill"
@@ -44,7 +44,7 @@ export const Example = () => {
 					bg: 'teal.500',
 				}}
 				_dark={{
-					bg: 'green.100',
+					bg: 'teal.700',
 				}}
 			/>
 			{/* <Box w="100%" h={20} bg="red.200" zIndex={-1}></Box> */}
