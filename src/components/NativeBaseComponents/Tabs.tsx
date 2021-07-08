@@ -1,5 +1,11 @@
 import React from 'react';
-import { Tabs, Box, VStack, useBreakpointValue } from 'native-base';
+import {
+  Tabs,
+  Box,
+  VStack,
+  useBreakpointValue,
+  useColorModeValue,
+} from 'native-base';
 
 export const Example = () => {
   const isLargeScreen = useBreakpointValue({
@@ -13,9 +19,7 @@ export const Example = () => {
       mt={4}
       bg="fuchsia.500"
       w={{ base: '80%', lg: '60%' }}
-      colorScheme="white"
-      // _light={{ bg: 'pink.500'}}
-      // _dark={{ bg: 'pink.400'}}
+      colorScheme={useColorModeValue('dark', 'white')}
     >
       <Tabs.Bar>
         <Tabs.Tab _text={{ color: 'white' }}>
