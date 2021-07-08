@@ -371,10 +371,10 @@ export function MasonLayout({
 						navigation={navigation}
 						name="Tabs"
 						
-						minH={32}
+						minH={40}
 						_box={{
-							lightGrad: ['rose.400', 'red.200'],
-							darkGrad: ['rose.600', 'red.300'],
+							lightGrad: ['violet.400', 'fuchsia.200'],
+							darkGrad: ['violet.600', 'fuchsia.300'],
 						}}
 						_heading={{
 							color: 'red.100',

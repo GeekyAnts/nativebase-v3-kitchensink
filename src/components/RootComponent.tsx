@@ -26,7 +26,6 @@ export const Root = () => {
 				_dark={{
 					bg: 'blueGray.900',
 				}}
-				// bg={useColorModeValue('', 'blueGray.900')}
 				_web={{
 					overflowX: 'hidden',
 				}}

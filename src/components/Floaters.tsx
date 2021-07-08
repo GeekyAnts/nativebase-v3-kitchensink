@@ -16,10 +16,8 @@ export const Floaters = () => {
 				_ios={{
 					opacity: 0.6,
 				}}
-				// size={64}
 				position="absolute"
 				top={{ base: -80, md: -180 }}
-				// top={-80}
 				right={{ base: -60, md: -100 }}
 			/>
 			<StatusBar

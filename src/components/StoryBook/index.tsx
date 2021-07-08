@@ -39,9 +39,7 @@ export function StoryBook({
 					navigation.navigate('Component | NativeBase', {
 						name: name,
 					})
-				}
-				// minH={32}
-				// bg={useColorModeValue('white', 'blueGray.900')}
+				}				
 			>
 				<Box
 					flex={1}
@@ -63,28 +61,12 @@ export function StoryBook({
 							left={2}
 							style={{ textTransform: 'uppercase' }}
 							color={gradColors[1]}
-							{..._heading}
-							// flexShrink={1}
-							mx={2}
+							{..._heading}							
+							w="90%"
 						>
 							{name}
 						</Heading>
-
-						{/* <Center
-							position="absolute"
-							top={8}
-							right={1}
-							left={1}
-							bottom={1}
-							_light={{
-								bg: gradColors[1],
-							}}
-							_dark={{
-								bg: 'coolGray.800',
-							}}
-						> */}
-						<Example />
-						{/* </Center> */}
+						<Example />						
 					</Center>
 				</Box>
 			</Pressable>

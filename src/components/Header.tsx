@@ -31,41 +31,6 @@ export function Header({
 					colorScheme="coolGray"
 					onPress={() => navigation.navigate('masonlayout')}
 				></IconButton>
-
-				{/* <Heading
-					alignSelf="center"
-					justifyContent="center"
-					mx="auto"
-					_light={{
-						color: 'trueGray.700',
-					}}
-					_dark={{
-						color: 'trueGray.700',
-					}}
-				>
-					{title}
-				</Heading> */}
-				{/* {isLargeScreen ? (
-					<IconButton
-						size="md"
-						icon={
-							<Icon
-								as={
-									colorMode == 'dark' ? (
-										<Ionicons name="sunny" color="white" />
-									) : (
-										<Ionicons name="moon" color="black" />
-									)
-								}
-								size="lg"
-							/>
-						}
-						onPress={toggleColorMode}
-						mr={{ base: 3, md: 0 }}
-					/>
-				) : (
-					<></>
-				)} */}
 			</HStack>
 		</Box>
 	);

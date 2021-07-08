@@ -155,9 +155,7 @@ export function Home({ navigation }: { navigation: StackNavigationProp<any> }) {
             <Divider ml={16} opacity={colorMode == 'dark' ? '0.4' : '1'} />
           }
           px={3}
-          // mt={12}
           py={0}
-          // borderColor="red.200"
           borderWidth={0}
           borderRightWidth={0}
           w="100%"

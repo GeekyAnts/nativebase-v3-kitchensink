@@ -1,4 +1,3 @@
-// import {} from '../components/NativeBaseComponents/Alert';
 const baseUrl = '../nb/components';
 
 type mapping = {

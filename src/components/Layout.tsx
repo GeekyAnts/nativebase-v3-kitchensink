@@ -5,18 +5,10 @@ import {
 	Heading,
 	HStack,
 	Text,
-	useBreakpointValue,
-	Fab,
 	Icon,
-	useColorModeValue,
-	MoonIcon,
-	SunIcon,
-	Stagger,
 	Pressable,
 	ArrowBackIcon,
-	Link,
-	ChevronLeftIcon,
-	IconButton,
+	Link,	
 } from 'native-base';
 import { Floaters } from '../components/Floaters';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -46,10 +38,7 @@ export const Layout = ({
 						sm: 6,
 						md: 0,
 					},
-				}}
-				// style={{
-				// 	backdropFilter: 'blur(10px)',
-				// }}
+				}}				
 			/>
 			<Box
 				{...props}
@@ -57,10 +46,7 @@ export const Layout = ({
 				px={4}
 				mx="auto"
 				pt={navigation ? '70px' : 0}
-				w={{ base: '100%', md: '768px', lg: '1000px', xl: '1080px' }}
-				// style={{
-				// 	backdropFilter: 'blur(10px)',
-				// }}
+				w={{ base: '100%', md: '768px', lg: '1000px', xl: '1080px' }}		
 			>
 				<HStack
 					position="absolute"
@@ -72,59 +58,50 @@ export const Layout = ({
 					{..._hStack}
 				>
 					<HStack py={2} 
-					// alignItems="flex-end"
 					alignItems="center"
 					w="100%"
 					>
-						
-							{/* <HStack alignItems="center" justifyContent="center"> */}
-								{/* <ChevronLeftIcon /> */}
-								<Pressable
-									onPress={() => {
-										navigation && navigation.navigate(navigateTo);
-									}}
-									_web={{
-										cursor: 'pointer',
-									}}
-								>
-									{title && <ArrowBackIcon mx={2} />}
-								</Pressable>
-								<Heading
-									color={colorMode == 'dark' ? 'white' : 'gray.800'}
-									// fontSize={{
-									// 	lg: '3xl',
-									// }}
-									_web={{ py: 2 }}
-									isTruncated
-									flex={1}
-								>
-									{title ? title : 'NativeBase'}
-								</Heading>
-							{/* </HStack> */}
-							{/* <Text color={colorMode == 'dark' ? 'white' : 'gray.800'}>v3</Text> */}
-							{title && 
-								<Box  mr={2} ml={6} mt={{base:1, lg:3}}  alignItems="flex-end">
-									<Link
-										href={doclink}
-										isExternal
-										// mt={4}
-										
-										alignItems="center"
-										>
-										<Text bold>Docs</Text>
-										<Icon 
-											as={<EvilIcons name="external-link" size={24} />}
-											_light={{
-												color: 'black'
-											}}
-											_dark={{
-												color: 'white'
-											}}
-											fontWeight={800}
-										/>
-									</Link>	
-								</Box>	
-							}
+						<Pressable
+							onPress={() => {
+								navigation && navigation.navigate(navigateTo);
+							}}
+							_web={{
+								cursor: 'pointer',
+							}}
+						>
+							{title && <ArrowBackIcon mx={2} />}
+						</Pressable>
+						<Heading
+							color={colorMode == 'dark' ? 'white' : 'gray.800'}							
+							_web={{ py: 2 }}
+							isTruncated
+							flex={1}
+						>
+							{title ? title : 'NativeBase'}
+						</Heading>
+						{title && 
+							<Box  mr={2} ml={6} mt={{base:1, lg:3}}  alignItems="flex-end">
+								<Link
+									href={doclink}
+									isExternal
+									// mt={4}
+									
+									alignItems="center"
+									>
+									<Text bold>Docs</Text>
+									<Icon 
+										as={<EvilIcons name="external-link" size={24} />}
+										_light={{
+											color: 'black'
+										}}
+										_dark={{
+											color: 'white'
+										}}
+										fontWeight={800}
+									/>
+								</Link>	
+							</Box>	
+						}
 					</HStack>
 				</HStack>
 				{children}
