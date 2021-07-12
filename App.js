@@ -5,9 +5,9 @@ import config from './nativebase.config';
 import { Root } from './src/components/RootComponent';
 
 export default function App() {
-	return (
-		<NativeBaseProvider theme={BaseTheme} config={config}>
-			<Root />
-		</NativeBaseProvider>
-	);
+  return (
+    <NativeBaseProvider theme={BaseTheme} config={config}>
+      <Root />
+    </NativeBaseProvider>
+  );
 }

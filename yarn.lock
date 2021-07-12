@@ -7388,10 +7388,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-base@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/native-base/-/native-base-3.0.2.tgz#a6ebe2eb39ea6ee1ec8fb58c09b1563edb281e32"
-  integrity sha512-3/n5+5w4JNBnQKX7kXpPWMozxx4aM1psh07xM6C4weB/QY470aLwlYUSgIQoePFgwpFj19XZJuB32VGmLj9sXA==
+native-base@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/native-base/-/native-base-3.0.3.tgz#089250778919509dc1eb3d18d60ab282fbcda28b"
+  integrity sha512-hCPHDUynl223A2nbgMY3jJUcw/GElLvjnNFvyg0Pewa4cNlngbg2StjUmKiBdnEgmwGYyl2AtE3tUnFKAXjqJQ==
   dependencies:
     "@react-aria/visually-hidden" "^3.2.1"
     "@react-native-aria/button" "^0.2.4"
