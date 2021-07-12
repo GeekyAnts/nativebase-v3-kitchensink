@@ -21,7 +21,8 @@ export const Example = () => {
         w="100%"
         rounded="pill"
         source={{
-          uri: 'https://image.freepik.com/free-photo/pathway-middle-green-leafed-trees-with-sun-shining-through-branches_181624-4539.jpg',
+          uri:
+            'https://image.freepik.com/free-photo/pathway-middle-green-leafed-trees-with-sun-shining-through-branches_181624-4539.jpg',
         }}
         alt="NativeBase Card"
       />

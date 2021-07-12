@@ -8,7 +8,8 @@ export const Example = () => {
         <Avatar
           size={'sm'}
           source={{
-            uri: 'https://i.pinimg.com/originals/4d/72/97/4d7297dad94265c0acbc3b677d418935.jpg',
+            uri:
+              'https://i.pinimg.com/originals/4d/72/97/4d7297dad94265c0acbc3b677d418935.jpg',
           }}
         />
         <Stack space={3}>
@@ -38,8 +39,7 @@ export const Example = () => {
               <Icon
                 name="grid"
                 as={MaterialCommunityIcons}
-                _light={{ color: 'blueGray.700' }}
-                _dark={{ color: 'blueGray.200' }}
+                color="blueGray.700"
               />
               <Text
                 flexShrink={1}
@@ -54,8 +54,7 @@ export const Example = () => {
               <Icon
                 name="calendar"
                 as={MaterialCommunityIcons}
-                _light={{ color: 'blueGray.700' }}
-                _dark={{ color: 'blueGray.200' }}
+                color="blueGray.700"
               />
               <Text
                 _light={{ color: 'blueGray.500' }}

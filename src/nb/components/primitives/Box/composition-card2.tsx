@@ -7,7 +7,8 @@ export const Example = () => {
         h={64}
         roundedTop="pill"
         source={{
-          uri: 'https://image.freepik.com/free-photo/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning_181624-24501.jpg',
+          uri:
+            'https://image.freepik.com/free-photo/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning_181624-24501.jpg',
         }}
         alt="NativeBase Card"
       />
