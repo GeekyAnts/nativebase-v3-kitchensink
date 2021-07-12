@@ -2,7 +2,6 @@ import React from 'react';
 import { Avatar, Stack } from 'native-base';
 
 export const Example = () => {
-  
   return (
     <Stack
       direction={{ base: 'column', md: 'row' }}

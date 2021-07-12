@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  Stack,
-  Heading,
-  Icon,
-  Text,
-  HStack,
-  Avatar,
-  useColorModeValue,
-} from 'native-base';
+import { Box, Stack, Heading, Icon, Text, HStack, Avatar } from 'native-base';
 import { MaterialCommunityIcons, SimpleLineIcons } from '@expo/vector-icons';
 export const Example = () => {
   return (
@@ -17,19 +8,20 @@ export const Example = () => {
         <Avatar
           size={'sm'}
           source={{
-            uri:
-              'https://i.pinimg.com/originals/4d/72/97/4d7297dad94265c0acbc3b677d418935.jpg',
+            uri: 'https://i.pinimg.com/originals/4d/72/97/4d7297dad94265c0acbc3b677d418935.jpg',
           }}
         />
         <Stack space={3}>
           <Heading
             size="lg"
-            color={useColorModeValue('blueGray.700', 'blueGray.100')}
+            _light={{ color: 'blueGray.700' }}
+            _dark={{ color: 'blueGray.100' }}
           >
             Dressing room
           </Heading>
           <Text
-            color={useColorModeValue('blueGray.500', 'blueGray.200')}
+            _light={{ color: 'blueGray.500' }}
+            _dark={{ color: 'blueGray.200' }}
             fontWeight="medium"
             fontSize="xs"
           >
@@ -46,12 +38,14 @@ export const Example = () => {
               <Icon
                 name="grid"
                 as={MaterialCommunityIcons}
-                color="blueGray.700"
+                _light={{ color: 'blueGray.700' }}
+                _dark={{ color: 'blueGray.200' }}
               />
               <Text
                 flexShrink={1}
                 fontWeight="medium"
-                color={useColorModeValue('blueGray.500', 'blueGray.200')}
+                _light={{ color: 'blueGray.500' }}
+                _dark={{ color: 'blueGray.200' }}
               >
                 Task: KitchenSink
               </Text>
@@ -60,10 +54,12 @@ export const Example = () => {
               <Icon
                 name="calendar"
                 as={MaterialCommunityIcons}
-                color="blueGray.700"
+                _light={{ color: 'blueGray.700' }}
+                _dark={{ color: 'blueGray.200' }}
               />
               <Text
-                color={useColorModeValue('blueGray.500', 'blueGray.200')}
+                _light={{ color: 'blueGray.500' }}
+                _dark={{ color: 'blueGray.200' }}
                 fontWeight="medium"
               >
                 Date: 10.04.2021
@@ -103,12 +99,7 @@ export const Example = () => {
         space={2}
         alignItems="center"
       >
-        <Icon
-          name="star"
-          as={SimpleLineIcons}
-          size={4}
-          color="blueGray.700"
-        />
+        <Icon name="star" as={SimpleLineIcons} size={4} color="blueGray.700" />
         <Icon name="more-horiz" color="blueGray.700" />
       </HStack>
     </Box>

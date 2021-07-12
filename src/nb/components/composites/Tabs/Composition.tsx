@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Heading, Tabs, Text } from 'native-base';
+import { Box, Tabs, Text } from 'native-base';
 
 export const Example = () => {
   return (

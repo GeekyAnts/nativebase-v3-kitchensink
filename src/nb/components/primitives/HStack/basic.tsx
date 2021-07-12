@@ -1,5 +1,5 @@
 import React from 'react';
-import { HStack, Stack, Center, Heading } from 'native-base';
+import { HStack, Stack, Center } from 'native-base';
 
 export function Example() {
   return (

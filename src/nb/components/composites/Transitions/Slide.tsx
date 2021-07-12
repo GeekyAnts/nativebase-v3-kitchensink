@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide, Button, Box, Text, Center } from 'native-base';
+import { Slide, Button, Box, Center } from 'native-base';
 export const Example = () => {
   const [isOpenBottom, setIsOpenBottom] = React.useState(false);
   const [isOpenTop, setIsOpenTop] = React.useState(false);
@@ -26,13 +26,13 @@ export const Example = () => {
         well paid.
       </Center>
       <Slide in={isOpenBottom}>
-        <Box p={10} _text={{color:"white"}} bg="blue.400" rounded="md">
-          I am comming from Bottom
+        <Box p={10} _text={{ color: 'white' }} bg="blue.400" rounded="md">
+          I am coming from Bottom
         </Box>
       </Slide>
       <Slide in={isOpenTop} placement="top">
-        <Box p={10} _text={{color:"white"}} bg="teal.400" rounded="md">
-          I am comming from Top
+        <Box p={10} _text={{ color: 'white' }} bg="teal.400" rounded="md">
+          I am coming from Top
         </Box>
       </Slide>
     </>
