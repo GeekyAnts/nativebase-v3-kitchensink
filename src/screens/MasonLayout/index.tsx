@@ -342,19 +342,6 @@ export function MasonLayout({
           />
           <StoryBook
             navigation={navigation}
-            name="Tabs"
-            minH={40}
-            _box={{
-              lightGrad: ['violet.400', 'fuchsia.200'],
-              darkGrad: ['violet.600', 'fuchsia.300'],
-            }}
-            _heading={{
-              color: 'red.100',
-            }}
-          />
-
-          <StoryBook
-            navigation={navigation}
             name="Popover"
             minH={48}
             _box={{
@@ -484,6 +471,18 @@ export function MasonLayout({
             }}
             _heading={{
               color: 'cyan.100',
+            }}
+          />
+          <StoryBook
+            navigation={navigation}
+            name="Tabs"
+            minH={40}
+            _box={{
+              lightGrad: ['violet.400', 'fuchsia.200'],
+              darkGrad: ['violet.600', 'fuchsia.300'],
+            }}
+            _heading={{
+              color: 'red.100',
             }}
           />
           <StoryBook

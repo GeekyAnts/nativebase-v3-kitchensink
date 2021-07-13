@@ -236,6 +236,11 @@ export const mapping = {
         title: 'Basic',
         description: '',
       },
+      // {
+      //   component: require('../nb/components/primitives/Box/composition'),
+      //   title: 'Composition',
+      //   description: '',
+      // },
       {
         component: require('../nb/components/primitives/Box/composition-card'),
         title: 'Composition Card',
@@ -339,12 +344,12 @@ export const mapping = {
       // },
       {
         component: require('../nb/components/primitives/Checkbox/size'),
-        title: 'CheckBox',
+        title: 'Size',
         description: '',
       },
       {
         component: require('../nb/components/primitives/Checkbox/uncontrolledCheckbox'),
-        title: 'CheckBox',
+        title: 'UnControlled CheckBox',
         description: '',
       },
       // {
@@ -457,7 +462,7 @@ export const mapping = {
       },
       {
         component: require('../nb/components/composites/FormControl/CustomStyle'),
-        title: 'Basic',
+        title: 'Custom Styles',
         description: '',
       },
     ],
@@ -522,6 +527,11 @@ export const mapping = {
       {
         component: require('../nb/components/primitives/Icon/CreateIcon'),
         title: 'Create Icon',
+        description: '',
+      },
+      {
+        component: require('../nb/components/primitives/Icon/Sizes'),
+        title: 'Sizes',
         description: '',
       },
       {
@@ -992,11 +1002,11 @@ export const mapping = {
         title: 'Color',
         description: '',
       },
-      // {
-      // 	component: require("../nb/components/primitives/Slider/Customized"),
-      // 	title: "Customized",
-      // 	description: "",
-      // },
+      {
+        component: require('../nb/components/primitives/Slider/Customized'),
+        title: 'Customized',
+        description: '',
+      },
       {
         component: require('../nb/components/primitives/Slider/FormControlled'),
         title: 'Form Controlled',

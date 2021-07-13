@@ -7,7 +7,7 @@ export function Example() {
   return (
     <VStack space={6} alignSelf="flex-start" w="100%">
       <Popover
-      // @ts-ignore
+        // @ts-ignore
         placement={position == 'auto' ? undefined : position}
         trigger={(triggerProps) => {
           return (

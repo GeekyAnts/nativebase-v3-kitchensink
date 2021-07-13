@@ -1,7 +1,6 @@
 import React from 'react';
 import { VStack, Center, Heading } from 'native-base';
 
-
 export function Example() {
   return (
     <VStack space={4} alignItems="center">

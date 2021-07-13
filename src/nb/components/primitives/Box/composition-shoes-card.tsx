@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  Text,
-  Image,
-  Heading,
-  Stack,
-  useColorModeValue,
-} from 'native-base';
+import { Box, Text, Image, Heading, Stack } from 'native-base';
 export const Example = () => {
   return (
     <Box
@@ -19,7 +12,8 @@ export const Example = () => {
       <Box width={{ md: 24 }} height={{ base: 32, md: '100%' }}>
         <Image
           source={{
-            uri: 'https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/b56d1e9b-3861-4c89-995d-b8fb6240a762/nike-just-do-it.jpg',
+            uri:
+              'https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/b56d1e9b-3861-4c89-995d-b8fb6240a762/nike-just-do-it.jpg',
           }}
           height={32}
           alt="Shoes"
@@ -33,13 +27,15 @@ export const Example = () => {
           <Heading size="sm">Jordan MA2</Heading>
           <Text
             fontWeight="medium"
-            color={useColorModeValue('blueGray.600', 'blueGray.50')}
+            _light={{ color: 'blueGray.600' }}
+            _dark={{ color: 'blueGray.50' }}
           >
             Older Kids' Shoe
           </Text>
           <Text
             fontWeight="medium"
-            color={useColorModeValue('blueGray.600', 'blueGray.50')}
+            _light={{ color: 'blueGray.600' }}
+            _dark={{ color: 'blueGray.50' }}
           >
             2 colors
           </Text>
@@ -47,7 +43,8 @@ export const Example = () => {
         <Text
           fontSize="md"
           fontWeight="semibold"
-          color={useColorModeValue('blueGray.600', 'blueGray.50')}
+          _light={{ color: 'blueGray.600' }}
+          _dark={{ color: 'blueGray.50' }}
         >
           $ 150
         </Text>

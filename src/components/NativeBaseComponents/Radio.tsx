@@ -15,9 +15,7 @@ export const Example = () => {
       opacity={0.5}
     >
       <Radio.Group name="exampleGroup" value="1" nativeID="r1">
-        <FormControl.Label>
-          <Radio value="1" colorScheme="orange" aria-label="radio" />
-        </FormControl.Label>
+        <Radio value="1" colorScheme="orange" aria-label="radio" />
       </Radio.Group>
     </Box>
   );
