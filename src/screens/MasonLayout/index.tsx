@@ -473,7 +473,8 @@ export function MasonLayout({
               color: 'cyan.100',
             }}
           />
-          <StoryBook
+          {/* Tabs are deprecated */}
+          {/* <StoryBook
             navigation={navigation}
             name="Tabs"
             minH={40}
@@ -484,7 +485,7 @@ export function MasonLayout({
             _heading={{
               color: 'red.100',
             }}
-          />
+          /> */}
           <StoryBook
             navigation={navigation}
             name="Text"
