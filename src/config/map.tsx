@@ -940,11 +940,11 @@ export const mapping = {
         title: 'Size',
         description: '',
       },
-      {
-        component: require('../nb/components/primitives/Radio/withRef'),
-        title: 'with Ref',
-        description: '',
-      },
+      // {
+      //   component: require('../nb/components/primitives/Radio/withRef'),
+      //   title: 'with Ref',
+      //   description: '',
+      // },
     ],
   },
   ScrollView: {
