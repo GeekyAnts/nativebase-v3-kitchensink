@@ -30,9 +30,7 @@ export const Example = () => {
             mb={9}
             mt="auto"
           />
-          <View bg="white" mt={3}>
-            <Button variant="solid">Submit</Button>
-          </View>
+          <Button variant="solid">Submit</Button>
         </VStack>
       )}
     </KeyboardAvoidingView>
