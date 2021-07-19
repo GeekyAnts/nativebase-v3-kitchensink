@@ -402,17 +402,17 @@ export const mapping = {
     basic: require('../components/NativeBaseComponents/Fab'),
     components: [
       {
-        component: require('../nb/components/composites/Fab/Basic'),
+        component: require('../nb/components/composites/Fab/Kitchensink-Basic'),
         title: 'Basic',
         description: '',
       },
       {
-        component: require('../nb/components/composites/Fab/CustomPosition'),
+        component: require('../nb/components/composites/Fab/Kitchensink-CustomPosition'),
         title: 'Custom Position',
         description: '',
       },
       {
-        component: require('../nb/components/composites/Fab/Placement'),
+        component: require('../nb/components/composites/Fab/Kitchensink-Placement'),
         title: 'Placement',
         description: '',
       },

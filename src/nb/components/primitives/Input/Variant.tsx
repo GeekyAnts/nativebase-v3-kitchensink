@@ -2,7 +2,6 @@ import React from 'react';
 import { Input, Stack, Center, Heading, ScrollView } from 'native-base';
 export const Example = () => {
   return (
-    <ScrollView>
       <Stack space={4} w="100%">
         <Center>
           <Heading>Input Variants</Heading>
@@ -38,6 +37,5 @@ export const Example = () => {
           _dark={{ placeholderTextColor: 'blueGray.50' }}
         />
       </Stack>
-    </ScrollView>
   );
 };
