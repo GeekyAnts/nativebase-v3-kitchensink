@@ -1249,7 +1249,7 @@ export const mapping = {
         description: '',
       },
       {
-        component: require('../nb/components/primitives/TextArea/size'),
+        component: require('../nb/components/primitives/TextArea/size-kitchensink'),
         title: 'Size',
         description: '',
       },
