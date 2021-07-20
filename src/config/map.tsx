@@ -242,6 +242,11 @@ export const mapping = {
       //   description: '',
       // },
       {
+        component: require('../nb/components/primitives/Box/LinearGrad'),
+        title: 'Linear Gradient',
+        description: '',
+      },
+      {
         component: require('../nb/components/primitives/Box/composition-card'),
         title: 'Composition Card',
         description: '',
@@ -989,6 +994,11 @@ export const mapping = {
         title: 'Form Controlled',
         description: '',
       },
+      {
+        component: require('../nb/components/primitives/Select/SelectLongList'),
+        title: 'Long Lists',
+        description: '',
+      },
     ],
   },
   Slider: {
@@ -1360,6 +1370,11 @@ export const mapping = {
       {
         component: require('../nb/components/composites/Transitions/SlideWrapped'),
         title: 'Slide Wrapped',
+        description: '',
+      },
+      {
+        component: require('../nb/components/composites/Transitions/Stagger'),
+        title: 'Stagger',
         description: '',
       },
     ],

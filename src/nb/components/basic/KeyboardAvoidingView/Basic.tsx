@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Input,
   KeyboardAvoidingView,
-  View,
   Text,
   Button,
   VStack,
