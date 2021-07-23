@@ -8,6 +8,7 @@ export function Example() {
   return (
     <VStack space={6} alignSelf="flex-start" w="100%">
       <Menu
+        shouldFlip={false}
         shouldOverlapWithTrigger={shouldOverlapWithTrigger}
         // @ts-ignore
         placement={position == 'auto' ? undefined : position}

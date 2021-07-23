@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Stack, Icon } from 'native-base';
-import { MaterialCommunityIcons, Ionicons } from '@expo/vector-icons';
+import { Button, Stack, Icon, ArrowForwardIcon } from 'native-base';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export const Example = () => {
   return (
@@ -10,10 +10,7 @@ export const Example = () => {
       >
         Email
       </Button>
-      <Button
-        variant="outline"
-        endIcon={<Icon as={Ionicons} name="arrow-forward" size={4} />}
-      >
+      <Button variant="outline" endIcon={<ArrowForwardIcon size="xs" />}>
         Call us
       </Button>
     </Stack>
