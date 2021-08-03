@@ -1,7 +1,5 @@
 import React from 'react';
 import { Box, IconButton, Icon, HStack, ArrowBackIcon } from 'native-base';
-
-import { Ionicons } from '@expo/vector-icons';
 import { StackNavigationProp } from '@react-navigation/stack';
 
 export function Header({

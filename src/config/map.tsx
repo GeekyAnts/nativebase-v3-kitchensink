@@ -242,6 +242,11 @@ export const mapping = {
       //   description: '',
       // },
       {
+        component: require('../nb/components/primitives/Box/LinearGrad'),
+        title: 'Linear Gradient',
+        description: '',
+      },
+      {
         component: require('../nb/components/primitives/Box/composition-card'),
         title: 'Composition Card',
         description: '',
@@ -402,17 +407,17 @@ export const mapping = {
     basic: require('../components/NativeBaseComponents/Fab'),
     components: [
       {
-        component: require('../nb/components/composites/Fab/Basic'),
+        component: require('../nb/components/composites/Fab/Kitchensink-Basic'),
         title: 'Basic',
         description: '',
       },
       {
-        component: require('../nb/components/composites/Fab/CustomPosition'),
+        component: require('../nb/components/composites/Fab/Kitchensink-CustomPosition'),
         title: 'Custom Position',
         description: '',
       },
       {
-        component: require('../nb/components/composites/Fab/Placement'),
+        component: require('../nb/components/composites/Fab/Kitchensink-Placement'),
         title: 'Placement',
         description: '',
       },
@@ -662,7 +667,7 @@ export const mapping = {
     basic: require('../components/NativeBaseComponents/KeyboardAvoidingView'),
     components: [
       {
-        component: require('../nb/components/basic/KeyboardAvoidingView/Basic'),
+        component: require('../nb/components/basic/KeyboardAvoidingView/Kitchensink-Basic'),
         title: 'Basic',
         description: '',
       },
@@ -989,6 +994,11 @@ export const mapping = {
         title: 'Form Controlled',
         description: '',
       },
+      {
+        component: require('../nb/components/primitives/Select/SelectLongList'),
+        title: 'Long Lists',
+        description: '',
+      },
     ],
   },
   Slider: {
@@ -1249,7 +1259,7 @@ export const mapping = {
         description: '',
       },
       {
-        component: require('../nb/components/primitives/TextArea/size'),
+        component: require('../nb/components/primitives/TextArea/size-kitchensink'),
         title: 'Size',
         description: '',
       },
@@ -1360,6 +1370,11 @@ export const mapping = {
       {
         component: require('../nb/components/composites/Transitions/SlideWrapped'),
         title: 'Slide Wrapped',
+        description: '',
+      },
+      {
+        component: require('../nb/components/composites/Transitions/Stagger'),
+        title: 'Stagger',
         description: '',
       },
     ],

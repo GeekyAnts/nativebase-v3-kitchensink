@@ -72,7 +72,10 @@ export const Layout = ({
               color={colorMode == 'dark' ? 'white' : 'gray.800'}
               _web={{ py: 2 }}
               isTruncated
+              numberOfLines={1}
               flex={1}
+              // @ts-ignore
+              style={{ wordWrap: 'normal' }}
             >
               {title ? title : 'NativeBase'}
             </Heading>
