@@ -1,17 +1,4 @@
-const baseUrl = '../nb/components';
-
-// type mappingType = {
-//   title: string;
-//   description: string;
-//   basic: React.Component;
-//   components: {
-//     component: any;
-//     title: string;
-//     description: string;
-//   }[];
-// };
-
-export const mapping = {
+var mapping = {
   Actionsheet: {
     title: 'Actionsheet',
     description: '',
@@ -1424,3 +1411,7 @@ export const mapping = {
     ],
   },
 };
+
+var x = JSON.stringify(mapping);
+
+module.exports = x;
