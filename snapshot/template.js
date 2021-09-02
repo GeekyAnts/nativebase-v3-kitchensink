@@ -1,11 +1,9 @@
-import React from 'react';
+const template = `import React from 'react';
 import renderer from 'react-test-renderer';
 import { NativeBaseProvider } from 'native-base';
 import { BaseTheme } from '../src/theme';
 import config from '../nativebase.config';
-import {MasonLayout} from '../src/screens';
-import { justifyContent } from 'styled-system';
-// import { MyComponent, AppContext } from "../sample";
+import { Example } from '../src/components/NativeBaseComponents/%ComponentNameTest%';
 
 jest.useFakeTimers();
 
@@ -25,8 +23,9 @@ const Provider = (props: any) => {
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<Provider><MasonLayout /></Provider>)
-    // .create(<AppContext.Provider value="123"><MyComponent></MyComponent></AppContext.Provider>)
+    .create(<Provider><Example /></Provider>)
     .toJSON();
   expect(tree).toMatchSnapshot();
-});
+});`
+
+module.exports = {template};
