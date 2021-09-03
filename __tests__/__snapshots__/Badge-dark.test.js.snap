@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    bg="success.600"
+    borderColor="transparent"
+    borderWidth={1}
+    colorScheme="success"
+    p={2}
+    px={1}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#16a34a",
+          "borderColor": "transparent",
+          "borderWidth": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": "50%",
+        },
+      ]
+    }
+    variant="subtle"
+    w="50%"
+  >
+    <View
+      bg="info.100"
+      h="11px"
+      rounded="sm"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#e0f2fe",
+            "borderRadius": 2,
+            "height": 11,
+          },
+        ]
+      }
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    alignSelf="center"
+    mt={3}
+    p={3}
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "marginTop": 12,
+          "paddingBottom": 12,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 12,
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      alignItems="center"
+      bg="lightBlue.400"
+      borderColor="lightBlue.600"
+      borderWidth={6}
+      py={3}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#38bdf8",
+            "borderColor": "#0284c7",
+            "borderWidth": 6,
+            "paddingBottom": 12,
+            "paddingTop": 12,
+          },
+        ]
+      }
+    >
+      <View
+        bg="cyan.100"
+        h="8px"
+        rounded="pill"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#cffafe",
+              "borderRadius": 25,
+              "height": 8,
+              "width": "80%",
+            },
+          ]
+        }
+        w="80%"
+      />
+      <View
+        height={2}
+        style={
+          Array [
+            Object {
+              "height": 8,
+            },
+          ]
+        }
+      />
+      <View
+        bg="cyan.100"
+        h="8px"
+        rounded="pill"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#cffafe",
+              "borderRadius": 25,
+              "height": 8,
+              "width": "80%",
+            },
+          ]
+        }
+        w="80%"
+      />
+      <View
+        height={2}
+        style={
+          Array [
+            Object {
+              "height": 8,
+            },
+          ]
+        }
+      />
+      <View
+        bg="cyan.100"
+        h="8px"
+        rounded="pill"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#cffafe",
+              "borderRadius": 25,
+              "height": 8,
+              "width": "80%",
+            },
+          ]
+        }
+        w="80%"
+      />
+      <View
+        height={2}
+        style={
+          Array [
+            Object {
+              "height": 8,
+            },
+          ]
+        }
+      />
+      <View
+        bg="cyan.100"
+        h="8px"
+        rounded="pill"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#cffafe",
+              "borderRadius": 25,
+              "height": 8,
+              "width": "80%",
+            },
+          ]
+        }
+        w="80%"
+      />
+      <View
+        height={2}
+        style={
+          Array [
+            Object {
+              "height": 8,
+            },
+          ]
+        }
+      />
+      <View
+        alignItems="flex-start"
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "width": "80%",
+            },
+          ]
+        }
+        w="80%"
+      >
+        <View
+          bg="cyan.300"
+          h="8px"
+          rounded="pill"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#67e8f9",
+                "borderRadius": 25,
+                "height": 8,
+                "width": "47%",
+              },
+            ]
+          }
+          w="47%"
+        />
+      </View>
+      <View
+        height={2}
+        style={
+          Array [
+            Object {
+              "height": 8,
+            },
+          ]
+        }
+      />
+      <View
+        alignItems="flex-end"
+        mt={2}
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-end",
+              "marginTop": 8,
+              "width": "80%",
+            },
+          ]
+        }
+        w="80%"
+      >
+        <View
+          bg="lightBlue.400"
+          borderColor="cyan.300"
+          borderRadius={4}
+          borderWidth={3}
+          h="15px"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#38bdf8",
+                "borderColor": "#67e8f9",
+                "borderRadius": 4,
+                "borderWidth": 3,
+                "height": 15,
+                "width": "40%",
+              },
+            ]
+          }
+          w="40%"
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

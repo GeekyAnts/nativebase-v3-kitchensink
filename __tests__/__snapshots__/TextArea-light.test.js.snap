@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    justifyContent="center"
+    style={
+      Array [
+        Object {
+          "justifyContent": "center",
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      position="absolute"
+      style={
+        Array [
+          Object {
+            "position": "absolute",
+            "width": "100%",
+          },
+        ]
+      }
+      w="100%"
+    >
+      <View
+        bg="gray.600"
+        h="8px"
+        mb={2}
+        mx={5}
+        position="relative"
+        rounded="pill"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#52525b",
+              "borderRadius": 25,
+              "height": 8,
+              "marginBottom": 8,
+              "marginLeft": 20,
+              "marginRight": 20,
+              "position": "relative",
+              "width": "60%",
+            },
+          ]
+        }
+        w="60%"
+      />
+      <View
+        bg="gray.600"
+        h="8px"
+        mx={5}
+        position="relative"
+        rounded="pill"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#52525b",
+              "borderRadius": 25,
+              "height": 8,
+              "marginLeft": 20,
+              "marginRight": 20,
+              "position": "relative",
+              "width": "40%",
+            },
+          ]
+        }
+        w="40%"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    />
+    <TextInput
+      _text={
+        Object {
+          "color": "lightText",
+        }
+      }
+      accessible={true}
+      allowFontScaling={true}
+      aria-label="textArea-demo"
+      background="transparent"
+      bg="teal.500"
+      borderColor="muted.200"
+      borderRadius="lg"
+      borderWidth={0}
+      color="black"
+      editable={true}
+      fontSize="md"
+      fontStyle="normal"
+      fontWeight={400}
+      h={20}
+      mt={4}
+      multiline={true}
+      numberOfLines={4}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      placeholderTextColor="#a3a3a3"
+      px={4}
+      py={2}
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#14b8a6",
+            "borderColor": "#e5e5e5",
+            "borderRadius": 6,
+            "borderWidth": 0,
+            "color": "#000000",
+            "fontSize": 16,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "height": 80,
+            "marginTop": 16,
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+            "width": "100%",
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      variant="outline"
+      w="100%"
+      zIndex={-1}
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

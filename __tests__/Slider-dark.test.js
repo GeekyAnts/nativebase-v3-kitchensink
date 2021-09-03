@@ -1,9 +1,11 @@
-const template = `import React from 'react';
+import React from 'react';
 import renderer from 'react-test-renderer';
 import { NativeBaseProvider } from 'native-base';
 import { BaseTheme } from '../src/theme';
 import config from '../nativebase.config';
-import { Example } from '../src/components/NativeBaseComponents/%ComponentNameTest%';
+import { Example } from '../src/components/NativeBaseComponents/Slider';
+
+BaseTheme.config.initialColorMode='dark';
 
 jest.useFakeTimers();
 
@@ -26,6 +28,4 @@ it('renders correctly', () => {
     .create(<Provider><Example /></Provider>)
     .toJSON();
   expect(tree).toMatchSnapshot();
-});`
-
-module.exports = {template};
+});

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    bg="warmGray.100"
+    borderRadius={4}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#f5f5f4",
+          "borderRadius": 4,
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      alignItems="center"
+      bg="orange.100"
+      borderTopRadius={4}
+      flexDirection="row"
+      h={6}
+      px={2}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffedd5",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "flexDirection": "row",
+            "height": 24,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "width": "100%",
+          },
+        ]
+      }
+      w="100%"
+    >
+      <View
+        bg="orange.400"
+        borderRadius={6}
+        flex={1}
+        h={2}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fb923c",
+              "borderRadius": 6,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "width": 8,
+            },
+          ]
+        }
+        width={2}
+      />
+      <View
+        bg="orange.400"
+        borderRadius={6}
+        flex={1}
+        h={2}
+        opacity={0.3}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fb923c",
+              "borderRadius": 6,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 8,
+              "opacity": 0.3,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "width": 8,
+            },
+          ]
+        }
+        width={2}
+      />
+      <View
+        bg="orange.400"
+        borderRadius={6}
+        flex={1}
+        h={2}
+        opacity={0.3}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fb923c",
+              "borderRadius": 6,
+              "flexBasis": 0,
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "height": 8,
+              "opacity": 0.3,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      flexDirection="row"
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "width": "100%",
+          },
+        ]
+      }
+      w="100%"
+    >
+      <View
+        aria-orientation="horizontal"
+        bg="orange.400"
+        h="2px"
+        height="1px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fb923c",
+              "height": 2,
+              "width": "33%",
+            },
+          ]
+        }
+        w="33%"
+        width="100%"
+      />
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      />
+      <View
+        aria-orientation="horizontal"
+        bg="trueGray.200"
+        h="2px"
+        height="1px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#e5e5e5",
+              "height": 2,
+              "width": "67%",
+            },
+          ]
+        }
+        w="67%"
+        width="100%"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <View
+        h={5}
+        style={
+          Array [
+            Object {
+              "height": 20,
+              "width": "100%",
+            },
+          ]
+        }
+        w="100%"
+      />
+      <View
+        aria-orientation="horizontal"
+        bg="trueGray.200"
+        height="1px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#e5e5e5",
+              "height": 1,
+              "width": "100%",
+            },
+          ]
+        }
+        width="100%"
+      />
+      <View
+        h={5}
+        style={
+          Array [
+            Object {
+              "height": 20,
+              "width": "100%",
+            },
+          ]
+        }
+        w="100%"
+      />
+      <View
+        aria-orientation="horizontal"
+        bg="trueGray.200"
+        height="1px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#e5e5e5",
+              "height": 1,
+              "width": "100%",
+            },
+          ]
+        }
+        width="100%"
+      />
+      <View
+        h={5}
+        style={
+          Array [
+            Object {
+              "height": 20,
+              "width": "100%",
+            },
+          ]
+        }
+        w="100%"
+      />
+      <View
+        aria-orientation="horizontal"
+        bg="trueGray.200"
+        height="1px"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#e5e5e5",
+              "height": 1,
+              "width": "100%",
+            },
+          ]
+        }
+        width="100%"
+      />
+      <View
+        h={2}
+        style={
+          Array [
+            Object {
+              "height": 8,
+              "width": "100%",
+            },
+          ]
+        }
+        w="100%"
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

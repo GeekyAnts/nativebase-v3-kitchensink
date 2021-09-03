@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    flexDirection="row"
+    justifyContent="flex-start"
+    mb={2}
+    mr={3}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginBottom": 8,
+          "marginRight": 12,
+        },
+      ]
+    }
+  >
+    <RCTSwitch
+      accessibilityRole="switch"
+      activeThumbColor="#FFFFFF"
+      aria-label="switch"
+      colorScheme="primary"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onTintColor="#06b6d4"
+      opacity={1}
+      style={
+        Array [
+          Object {
+            "height": 31,
+            "width": 51,
+          },
+          Array [
+            Array [
+              Object {
+                "opacity": 1,
+              },
+              Object {},
+            ],
+            Object {
+              "backgroundColor": "#52525b",
+              "borderRadius": 16,
+            },
+          ],
+        ]
+      }
+      thumbTintColor="#FFFFFF"
+      tintColor="#52525b"
+      value={false}
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

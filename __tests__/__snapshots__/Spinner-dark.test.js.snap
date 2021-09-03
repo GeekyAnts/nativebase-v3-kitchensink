@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityRole="progressbar"
+    accessibilityValue={
+      Object {
+        "max": undefined,
+        "min": undefined,
+        "now": 33,
+      }
+    }
+    accessible={true}
+    alignItems="center"
+    aria-label="spinner"
+    borderColor="green.100"
+    borderWidth={8}
+    colorScheme="green"
+    height={12}
+    justifyContent="center"
+    rounded={0}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#dcfce7",
+          "borderRadius": 0,
+          "borderWidth": 8,
+          "height": 48,
+          "justifyContent": "center",
+          "width": 48,
+        },
+        Object {
+          "transform": Array [
+            Object {
+              "rotate": "77deg",
+            },
+          ],
+        },
+      ]
+    }
+    trackColor="green.100"
+    width={12}
+  >
+    <View
+      borderRightColor="green.500"
+      borderTopColor="green.500"
+      onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "borderRightColor": "#22c55e",
+            "borderTopColor": "#22c55e",
+          },
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomLeftRadius": 0,
+            "borderBottomRightRadius": 0,
+            "borderBottomWidth": 8,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 8,
+            "borderRightWidth": 8,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderTopWidth": 8,
+            "height": 48,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "rotateZ": "-135deg",
+              },
+            ],
+            "width": 48,
+          },
+          Object {
+            "transform": Array [
+              Object {
+                "rotateZ": "-16.200000000000003deg",
+              },
+            ],
+          },
+        ]
+      }
+    />
+    <View
+      borderRightColor="green.100"
+      borderTopColor="green.100"
+      style={
+        Array [
+          Object {
+            "borderRightColor": "#dcfce7",
+            "borderTopColor": "#dcfce7",
+          },
+          Object {
+            "borderBottomColor": "transparent",
+            "borderBottomLeftRadius": 0,
+            "borderBottomRightRadius": 0,
+            "borderBottomWidth": 8,
+            "borderLeftColor": "transparent",
+            "borderLeftWidth": 8,
+            "borderRadius": 0,
+            "borderRightWidth": 8,
+            "borderTopLeftRadius": 0,
+            "borderTopRightRadius": 0,
+            "borderTopWidth": 8,
+            "height": 48,
+            "position": "absolute",
+            "transform": Array [
+              Object {
+                "rotateZ": "-135deg",
+              },
+            ],
+            "width": 48,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -1,19 +1,18 @@
 const fs = require('fs');
 const path = require('path');
-const { template } = require("./template.js");
+const { lightTemplate } = require("./light-template.js");
+const { darkTemplate } = require("./dark-template.js");
 
 const mapFilePath = path.join(__dirname, "../src/config/map.tsx");
 const testFilePath = path.join(__dirname, "/../src/config/testing.tsx");
 
-
-fs.copyFile(mapFilePath, testFilePath, (err) => {
-    if (err) {
-        console.log("Error Found:", err);
-    }
-    else {
+fs.mkdir(__dirname + "/../__tests__", { recursive: true }, (err) => {
+    if (err) throw err;
+    fs.copyFile(mapFilePath, testFilePath, (err) => {
+        if (err) throw err;
         filterData();
-    }
-});
+    });
+})
 
 function filterData() {
     const testFilePath = path.join(__dirname, "/../src/config/testing.tsx");
@@ -52,19 +51,29 @@ function generateSnapshotTests() {
 
     for (let i = 0; i < mapping.length; i++) {
         let name = mapping[i];
-        let finalCode = template.split("%ComponentNameTest%").join(name);
-        let fileName = '__tests__/' + name + '.test.js';
+        let finalCode = lightTemplate.split("%ComponentNameTest%").join(name);
+        let fileName = '__tests__/' + name + '-light.test.js';
         fs.writeFile(fileName, finalCode, function (err, file) {
             if (err) throw err;
         });
     }
+
+    for (let i = 0; i < mapping.length; i++) {
+        let name = mapping[i];
+        let finalCode = darkTemplate.split("%ComponentNameTest%").join(name);
+        let fileName = '__tests__/' + name + '-dark.test.js';
+        fs.writeFile(fileName, finalCode, function (err, file) {
+            if (err) throw err;
+        });
+    }
+
     console.log("Snapshots Created!");
     fs.unlink(testFilePath, (err) => {
         if (err) {
             console.error(err)
             return
         }
-        else{
+        else {
             console.log("Cleaned Residue!😀");
         }
     })

@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    flex={1}
+    justifyContent="flex-end"
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "flex-end",
+          "width": "100%",
+        },
+      ]
+    }
+    w="100%"
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Array [
+          Array [
+            Object {},
+          ],
+          Object {
+            "paddingBottom": 0,
+          },
+        ]
+      }
+    >
+      <TextInput
+        _text={
+          Object {
+            "color": "lightText",
+          }
+        }
+        accessible={true}
+        allowFontScaling={true}
+        aria-label="keyboard avoiding view"
+        background="transparent"
+        bg="muted.700"
+        borderColor="transparent"
+        borderRadius="lg"
+        borderWidth={1}
+        color="white"
+        disabled={true}
+        editable={false}
+        fontSize="md"
+        fontStyle="normal"
+        fontWeight={400}
+        m={4}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        opacity={0.8}
+        placeholderTextColor="#737373"
+        px={4}
+        py={3}
+        rejectResponderTermination={true}
+        secureTextEntry={false}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#404040",
+              "borderColor": "transparent",
+              "borderRadius": 6,
+              "borderWidth": 1,
+              "color": "#FFFFFF",
+              "fontSize": 16,
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "marginBottom": 16,
+              "marginLeft": 16,
+              "marginRight": 16,
+              "marginTop": 16,
+              "opacity": 0.8,
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        variant="outline"
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

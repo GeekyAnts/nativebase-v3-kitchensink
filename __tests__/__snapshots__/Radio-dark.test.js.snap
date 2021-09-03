@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    bg="orange.600"
+    opacity={0.5}
+    p={4}
+    rounded="full"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ea580c",
+          "borderRadius": 9999,
+          "opacity": 0.5,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <View
+        accessibilityRole="radiogroup"
+        accessibilityState={
+          Object {
+            "disabled": undefined,
+          }
+        }
+        alignItems="flex-start"
+        name="exampleGroup"
+        nativeID="r1"
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+            },
+          ]
+        }
+        value="1"
+      >
+        <View
+          accessibilityLabel="radio"
+          accessibilityRole="radio"
+          accessibilityState={
+            Object {
+              "checked": true,
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          aria-label="radio"
+          checked={true}
+          colorScheme="orange"
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onHoverIn={[Function]}
+          onHoverOut={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {},
+            ]
+          }
+          value="1"
+        >
+          <View
+            alignItems="center"
+            aria-label="radio"
+            borderRadius="full"
+            colorScheme="orange"
+            defaultIsChecked={false}
+            display="flex"
+            flexDirection="row"
+            justifyContent="center"
+            state={
+              Object {
+                "isDisabled": false,
+                "isReadOnly": false,
+                "lastFocusedValue": null,
+                "name": "exampleGroup",
+                "selectedValue": "1",
+                "setLastFocusedValue": [Function],
+                "setSelectedValue": [Function],
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 9999,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+            value="1"
+          >
+            <View
+              alignItems="center"
+              display="flex"
+              justifyContent="center"
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "justifyContent": "center",
+                  },
+                ]
+              }
+            >
+              <View
+                _disabled={
+                  Object {
+                    "bg": "transaprarent",
+                  }
+                }
+                _focus={
+                  Object {
+                    "bg": "rgba(254, 215, 170, 0.5)",
+                  }
+                }
+                _hover={
+                  Object {
+                    "bg": "rgba(229, 229, 229, 0.3)",
+                  }
+                }
+                borderRadius="full"
+                height="100%"
+                p={5}
+                position="absolute"
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 9999,
+                      "height": "100%",
+                      "paddingBottom": 20,
+                      "paddingLeft": 20,
+                      "paddingRight": 20,
+                      "paddingTop": 20,
+                      "position": "absolute",
+                      "width": "100%",
+                      "zIndex": -1,
+                    },
+                  ]
+                }
+                w="100%"
+                zIndex={-1}
+              />
+              <View
+                alignItems="center"
+                bg="muted.700"
+                borderColor="orange.200"
+                borderRadius="full"
+                borderWidth={2}
+                display="flex"
+                justifyContent="center"
+                p="2px"
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#404040",
+                      "borderColor": "#fed7aa",
+                      "borderRadius": 9999,
+                      "borderWidth": 2,
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "paddingBottom": 2,
+                      "paddingLeft": 2,
+                      "paddingRight": 2,
+                      "paddingTop": 2,
+                    },
+                  ]
+                }
+              >
+                <RNSVGSvgView
+                  _disabled={
+                    Object {
+                      "bg": "transaprarent",
+                    }
+                  }
+                  accessibilityRole="image"
+                  align="xMidYMid"
+                  bbHeight={12}
+                  bbWidth={12}
+                  color={4294891434}
+                  focusable={false}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  size={3}
+                  stroke=""
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Array [
+                        Object {
+                          "color": "#fed7aa",
+                          "height": 12,
+                          "opacity": 1,
+                          "width": 12,
+                        },
+                      ],
+                      Object {
+                        "flex": 0,
+                        "height": 12,
+                        "opacity": 1,
+                        "width": 12,
+                      },
+                    ]
+                  }
+                  tintColor={4294891434}
+                  vbHeight={24}
+                  vbWidth={24}
+                >
+                  <RNSVGGroup
+                    opacity={1}
+                    propList={
+                      Array [
+                        "stroke",
+                      ]
+                    }
+                    stroke={null}
+                  >
+                    <RNSVGGroup>
+                      <RNSVGPath
+                        d="M 12, 12 m -9, 0 a 9,9 0 1,0 18,0 a 9,9 0 1,0 -18,0"
+                        fill={
+                          Array [
+                            2,
+                          ]
+                        }
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                          ]
+                        }
+                        stroke={null}
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

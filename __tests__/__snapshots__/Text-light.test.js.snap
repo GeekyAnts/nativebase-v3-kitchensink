@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    color="white"
+    fontSize="5xl"
+    fontStyle="normal"
+    fontWeight={400}
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 48,
+          "fontStyle": "normal",
+          "fontWeight": "400",
+        },
+      ]
+    }
+  >
+    Tt
+  </Text>
+</RNCSafeAreaProvider>
+`;

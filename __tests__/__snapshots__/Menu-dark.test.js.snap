@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    alignItems="center"
+    display="flex"
+    justifyContent="center"
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      alignItems="flex-end"
+      position="relative"
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-end",
+            "position": "relative",
+          },
+        ]
+      }
+    >
+      <View
+        bg="cyan.300"
+        overflow="hidden"
+        p={2}
+        position="relative"
+        right={0}
+        rounded="lg"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#67e8f9",
+              "borderRadius": 6,
+              "overflow": "hidden",
+              "paddingBottom": 8,
+              "paddingLeft": 8,
+              "paddingRight": 8,
+              "paddingTop": 8,
+              "position": "relative",
+              "right": 0,
+              "width": 40,
+            },
+          ]
+        }
+        w={10}
+      >
+        <View
+          bg="cyan.500"
+          left={5}
+          opacity={0.6}
+          position="absolute"
+          rounded="full"
+          size={20}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#06b6d4",
+                "borderRadius": 9999,
+                "height": 80,
+                "left": 20,
+                "opacity": 0.6,
+                "position": "absolute",
+                "top": -2,
+                "width": 80,
+                "zIndex": -1,
+              },
+            ]
+          }
+          top={-2}
+          zIndex={-1}
+        />
+        <View
+          bg="gray.100"
+          rounded="lg"
+          size={6}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#f4f4f5",
+                "borderRadius": 6,
+                "height": 24,
+                "width": 24,
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        alignItems="center"
+        bg="cyan.400"
+        justifyContent="center"
+        position="relative"
+        py={4}
+        right={0}
+        rounded="md"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#22d3ee",
+              "borderRadius": 4,
+              "justifyContent": "center",
+              "paddingBottom": 16,
+              "paddingTop": 16,
+              "position": "relative",
+              "right": 0,
+              "width": 128,
+            },
+          ]
+        }
+        w={32}
+      >
+        <View
+          bg="cyan.200"
+          h="8px"
+          rounded="pill"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#a5f3fc",
+                "borderRadius": 25,
+                "height": 8,
+                "width": "80%",
+              },
+            ]
+          }
+          w="80%"
+        />
+        <View
+          aria-orientation="horizontal"
+          bg="muted.500"
+          border={1}
+          borderColor="cyan.200"
+          height="1px"
+          my={4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#737373",
+                "borderColor": "#a5f3fc",
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 1,
+                "marginBottom": 16,
+                "marginTop": 16,
+                "width": "100%",
+              },
+            ]
+          }
+          width="100%"
+        />
+        <View
+          bg="cyan.200"
+          h="8px"
+          rounded="pill"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#a5f3fc",
+                "borderRadius": 25,
+                "height": 8,
+                "width": "80%",
+              },
+            ]
+          }
+          w="80%"
+        />
+        <View
+          aria-orientation="horizontal"
+          bg="muted.500"
+          border={1}
+          borderColor="cyan.200"
+          height="1px"
+          my={4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#737373",
+                "borderColor": "#a5f3fc",
+                "borderStyle": "solid",
+                "borderWidth": 1,
+                "height": 1,
+                "marginBottom": 16,
+                "marginTop": 16,
+                "width": "100%",
+              },
+            ]
+          }
+          width="100%"
+        />
+        <View
+          bg="cyan.200"
+          h="8px"
+          rounded="pill"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#a5f3fc",
+                "borderRadius": 25,
+                "height": 8,
+                "width": "80%",
+              },
+            ]
+          }
+          w="80%"
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

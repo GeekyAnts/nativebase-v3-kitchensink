@@ -6,10 +6,10 @@ export const Example = () => {
     <Box flex={1} w="100%" justifyContent="flex-end">
       <VStack
         _light={{
-          bg: 'cyan.50',
+          bg: 'cyan.100',
         }}
         _dark={{
-          bg: 'cyan.400',
+          bg: 'cyan.300',
         }}
         space={2}
         divider={

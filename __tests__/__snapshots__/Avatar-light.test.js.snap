@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    alignItems="center"
+    bg="blue.300"
+    borderColor="gray.800"
+    borderRadius="full"
+    fontSize="xl"
+    height="16"
+    justifyContent="center"
+    name="avatar"
+    position="relative"
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#93c5fd",
+          "borderColor": "#27272a",
+          "borderRadius": 9999,
+          "fontSize": 20,
+          "height": 64,
+          "justifyContent": "center",
+          "position": "relative",
+          "width": 64,
+        },
+      ]
+    }
+    width="16"
+  >
+    <Text
+      color="darkText"
+      fontSize="lg"
+      fontStyle="normal"
+      fontWeight={600}
+      opacity={0}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "fontSize": 18,
+            "fontStyle": "normal",
+            "fontWeight": "600",
+            "opacity": 0,
+          },
+        ]
+      }
+    >
+      NB
+    </Text>
+    <View
+      bg="green.300"
+      borderColor="light.50"
+      borderRadius="full"
+      borderWidth={0}
+      bottom={0}
+      height={5}
+      position="absolute"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#86efac",
+            "borderColor": "#fafaf9",
+            "borderRadius": 9999,
+            "borderWidth": 0,
+            "bottom": 0,
+            "height": 20,
+            "position": "absolute",
+            "right": 0,
+            "width": 20,
+          },
+        ]
+      }
+      width={5}
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

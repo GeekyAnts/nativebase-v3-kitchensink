@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    justifyContent="center"
+    style={
+      Array [
+        Object {
+          "justifyContent": "center",
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <TextInput
+      accessible={true}
+      allowFontScaling={true}
+      aria-label="input"
+      background="transparent"
+      bg="muted.700"
+      borderColor="muted.600"
+      borderRadius="lg"
+      borderWidth={1}
+      color="white"
+      disabled={true}
+      editable={false}
+      fontSize="xs"
+      fontStyle="normal"
+      fontWeight={400}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyPress={[Function]}
+      opacity={0.8}
+      placeholderTextColor="#737373"
+      px={4}
+      py={3}
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#404040",
+            "borderColor": "#525252",
+            "borderRadius": 6,
+            "borderWidth": 1,
+            "color": "#FFFFFF",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "opacity": 0.8,
+            "paddingBottom": 12,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 12,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      variant="outline"
+    />
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    />
+    <View
+      bg="gray.100"
+      h="8px"
+      mx={5}
+      position="absolute"
+      rounded="pill"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#f4f4f5",
+            "borderRadius": 25,
+            "height": 8,
+            "marginLeft": 20,
+            "marginRight": 20,
+            "position": "absolute",
+            "width": "40%",
+          },
+        ]
+      }
+      w="40%"
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;
