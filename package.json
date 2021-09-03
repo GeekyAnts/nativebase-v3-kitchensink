@@ -5,7 +5,8 @@
 		"ios": "react-native run-ios",
 		"web": "expo start --web",
 		"eject": "expo eject",
-		"test": "jest",
+		"create-snapshots": "node snapshot/create-snapshots.js",
+		"test": "jest __tests__/",
 		"web-build": "node ./built-init.js && expo build:web"
 	},
 	"jest": {
