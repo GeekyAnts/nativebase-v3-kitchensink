@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    bg="green.200"
+    p={3}
+    rounded="full"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#bbf7d0",
+          "borderRadius": 9999,
+          "paddingBottom": 12,
+          "paddingLeft": 12,
+          "paddingRight": 12,
+          "paddingTop": 12,
+        },
+      ]
+    }
+  >
+    <RNSVGSvgView
+      accessibilityRole="image"
+      align="xMidYMid"
+      bbHeight={24}
+      bbWidth={24}
+      color={4280468830}
+      focusable={false}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      size={6}
+      stroke=""
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Array [
+            Object {
+              "color": "#22c55e",
+              "height": 24,
+              "width": 24,
+            },
+          ],
+          Object {
+            "flex": 0,
+            "height": 24,
+            "width": 24,
+          },
+        ]
+      }
+      tintColor={4280468830}
+      vbHeight={24}
+      vbWidth={24}
+    >
+      <RNSVGGroup
+        propList={
+          Array [
+            "stroke",
+          ]
+        }
+        stroke={null}
+      >
+        <RNSVGGroup>
+          <RNSVGPath
+            d="M0,12a1.5,1.5,0,0,0,1.5,1.5h8.75a.25.25,0,0,1,.25.25V22.5a1.5,1.5,0,0,0,3,0V13.75a.25.25,0,0,1,.25-.25H22.5a1.5,1.5,0,0,0,0-3H13.75a.25.25,0,0,1-.25-.25V1.5a1.5,1.5,0,0,0-3,0v8.75a.25.25,0,0,1-.25.25H1.5A1.5,1.5,0,0,0,0,12Z"
+            fill={
+              Array [
+                2,
+              ]
+            }
+            propList={
+              Array [
+                "fill",
+                "stroke",
+              ]
+            }
+            stroke={null}
+          />
+        </RNSVGGroup>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+</RNCSafeAreaProvider>
+`;

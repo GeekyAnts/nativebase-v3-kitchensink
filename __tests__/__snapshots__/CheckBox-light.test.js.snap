@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    bg="red.100"
+    opacity={0.5}
+    p={4}
+    rounded="full"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fee2e2",
+          "borderRadius": 9999,
+          "opacity": 0.5,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+      ]
+    }
+  >
+    <View
+      _text={
+        Object {
+          "fontSize": "md",
+          "ml": 3,
+        }
+      }
+      accessibilityLabel="chk123"
+      accessibilityRole="checkbox"
+      accessibilityState={
+        Object {
+          "checked": true,
+          "disabled": undefined,
+        }
+      }
+      accessible={true}
+      aria-label="chk123"
+      checked={true}
+      colorScheme="red"
+      defaultIsChecked={false}
+      focusable={true}
+      isChecked={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onHoverIn={[Function]}
+      onHoverOut={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {},
+        ]
+      }
+      value=""
+    >
+      <View
+        alignItems="center"
+        aria-label="chk123"
+        borderRadius="full"
+        colorScheme="red"
+        defaultIsChecked={false}
+        display="flex"
+        flexDirection="row"
+        isChecked={true}
+        justifyContent="center"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 9999,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+          ]
+        }
+        value=""
+      >
+        <View
+          alignItems="center"
+          display="flex"
+          justifyContent="center"
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "center",
+              },
+            ]
+          }
+        >
+          <View
+            _disabled={
+              Object {
+                "bg": "transaprarent",
+              }
+            }
+            _focus={
+              Object {
+                "bg": "rgba(254, 202, 202, 0.5)",
+              }
+            }
+            _hover={
+              Object {
+                "bg": "rgba(229, 229, 229, 0.3)",
+              }
+            }
+            borderRadius="full"
+            height="100%"
+            p={5}
+            position="absolute"
+            style={
+              Array [
+                Object {
+                  "borderRadius": 9999,
+                  "height": "100%",
+                  "paddingBottom": 20,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 20,
+                  "position": "absolute",
+                  "width": "100%",
+                  "zIndex": -1,
+                },
+              ]
+            }
+            w="100%"
+            zIndex={-1}
+          />
+          <View
+            alignItems="center"
+            bg="red.600"
+            borderColor="red.600"
+            borderRadius="sm"
+            borderWidth={2}
+            display="flex"
+            justifyContent="center"
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#dc2626",
+                  "borderColor": "#dc2626",
+                  "borderRadius": 2,
+                  "borderWidth": 2,
+                  "display": "flex",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <RNSVGSvgView
+              accessibilityRole="image"
+              align="xMidYMid"
+              bbHeight={16}
+              bbWidth={16}
+              color={4294638330}
+              focusable={false}
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              size={4}
+              stroke=""
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Array [
+                    Object {
+                      "color": "#fafafa",
+                      "height": 16,
+                      "opacity": 1,
+                      "width": 16,
+                    },
+                  ],
+                  Object {
+                    "flex": 0,
+                    "height": 16,
+                    "opacity": 1,
+                    "width": 16,
+                  },
+                ]
+              }
+              tintColor={4294638330}
+              vbHeight={14}
+              vbWidth={14}
+            >
+              <RNSVGGroup
+                opacity={1}
+                propList={
+                  Array [
+                    "stroke",
+                  ]
+                }
+                stroke={null}
+              >
+                <RNSVGGroup>
+                  <RNSVGGroup
+                    fill={
+                      Array [
+                        2,
+                      ]
+                    }
+                    propList={
+                      Array [
+                        "fill",
+                        "stroke",
+                      ]
+                    }
+                    stroke={null}
+                  >
+                    <RNSVGPath
+                      d="M5.5 11.9993304 14 3.49933039 12.5 2 5.5 8.99933039 1.5 4.9968652 0 6.49933039z"
+                    />
+                  </RNSVGGroup>
+                </RNSVGGroup>
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

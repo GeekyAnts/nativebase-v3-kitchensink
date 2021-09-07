@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    alignItems="center"
+    display="flex"
+    justifyContent="center"
+    ml={4}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+          "marginLeft": 16,
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      flexDirection="row"
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <View
+        bg="amber.400"
+        ml={-4}
+        opacity={0.5}
+        rounded="full"
+        size={12}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fbbf24",
+              "borderRadius": 9999,
+              "height": 48,
+              "marginLeft": -16,
+              "opacity": 0.5,
+              "width": 48,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      />
+      <View
+        bg="amber.300"
+        ml={-4}
+        opacity={0.5}
+        rounded="full"
+        size={12}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fcd34d",
+              "borderRadius": 9999,
+              "height": 48,
+              "marginLeft": -16,
+              "opacity": 0.5,
+              "width": 48,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      />
+      <View
+        bg="amber.200"
+        ml={-4}
+        opacity={0.5}
+        rounded="full"
+        size={12}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fde68a",
+              "borderRadius": 9999,
+              "height": 48,
+              "marginLeft": -16,
+              "opacity": 0.5,
+              "width": 48,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      />
+      <View
+        bg="amber.50"
+        ml={-4}
+        opacity={0.5}
+        rounded="full"
+        size={12}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fffbeb",
+              "borderRadius": 9999,
+              "height": 48,
+              "marginLeft": -16,
+              "opacity": 0.5,
+              "width": 48,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

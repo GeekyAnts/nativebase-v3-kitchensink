@@ -1,15 +1,15 @@
 const baseUrl = '../nb/components';
 
-type mapping = {
-  title: string;
-  description: string;
-  basic: React.Component;
-  components: {
-    component: any;
-    title: string;
-    description: string;
-  }[];
-};
+// type mappingType = {
+//   title: string;
+//   description: string;
+//   basic: React.Component;
+//   components: {
+//     component: any;
+//     title: string;
+//     description: string;
+//   }[];
+// };
 
 export const mapping = {
   Actionsheet: {

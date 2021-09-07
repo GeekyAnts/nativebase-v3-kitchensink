@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    _text={
+      Object {
+        "color": "darkText",
+      }
+    }
+    accessible={true}
+    bg="green.200"
+    borderRadius={6}
+    focusable={true}
+    h={10}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHoverIn={[Function]}
+    onHoverOut={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    p={2}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#bbf7d0",
+          "borderRadius": 6,
+          "height": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  />
+</RNCSafeAreaProvider>
+`;

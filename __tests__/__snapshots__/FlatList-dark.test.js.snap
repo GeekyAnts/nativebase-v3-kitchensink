@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "title": "First Item",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "title": "Second Item",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+          "title": "Third Item",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    mt={6}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "marginTop": 24,
+        },
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          bg="blue.200"
+          my={1}
+          px={5}
+          py={2}
+          rounded="md"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#bfdbfe",
+                "borderRadius": 4,
+                "marginBottom": 4,
+                "marginTop": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 8,
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          bg="blue.200"
+          my={1}
+          px={5}
+          py={2}
+          rounded="md"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#bfdbfe",
+                "borderRadius": 4,
+                "marginBottom": 4,
+                "marginTop": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 8,
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          bg="blue.200"
+          my={1}
+          px={5}
+          py={2}
+          rounded="md"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#bfdbfe",
+                "borderRadius": 4,
+                "marginBottom": 4,
+                "marginTop": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 20,
+                "paddingRight": 20,
+                "paddingTop": 8,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaProvider>
+`;

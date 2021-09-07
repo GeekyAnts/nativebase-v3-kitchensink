@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    flexDirection="row"
+    justifyContent="flex-start"
+    mb={2}
+    mr={3}
+    nativeID="sliderLabel"
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+          "marginBottom": 8,
+          "marginRight": 12,
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      accessibilityLabel="slider example"
+      alignItems="center"
+      aria-label="slider example"
+      aria-labelledby="sliderLabel"
+      colorScheme="fuchsia"
+      defaultValue={70}
+      justifyContent="center"
+      nativeID="sliderExample"
+      sliderSize={4}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+        ]
+      }
+      thumbSize={4}
+      w="100%"
+      width="100%"
+    >
+      <View
+        accessible={true}
+        alignItems="center"
+        focusable={true}
+        height={4}
+        justifyContent="center"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onHoverIn={[Function]}
+        onHoverOut={[Function]}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        paddingY="12px"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 16,
+              "justifyContent": "center",
+              "paddingBottom": 12,
+              "paddingTop": 12,
+              "width": "100%",
+            },
+          ]
+        }
+        width="100%"
+      >
+        <View
+          bg="fuchsia.100"
+          borderRadius="lg"
+          colorScheme="fuchsia"
+          overflow="hidden"
+          size={4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#fae8ff",
+                "borderRadius": 6,
+                "height": 16,
+                "overflow": "hidden",
+                "width": 16,
+              },
+              Object {
+                "height": 4,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            bg="fuchsia.300"
+            colorScheme="fuchsia"
+            left={0}
+            position="absolute"
+            size={4}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#f0abfc",
+                  "height": 16,
+                  "left": 0,
+                  "position": "absolute",
+                  "width": 16,
+                },
+                undefined,
+                Object {
+                  "height": 4,
+                  "width": "70%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        aria-label="pointer of slider"
+        bg="fuchsia.300"
+        borderRadius={99999}
+        colorScheme="fuchsia"
+        onMoveShouldSetResponder={[Function]}
+        onMoveShouldSetResponderCapture={[Function]}
+        onResponderEnd={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderReject={[Function]}
+        onResponderRelease={[Function]}
+        onResponderStart={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        position="absolute"
+        scaleOnPressed={1.2}
+        size={4}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#f0abfc",
+              "borderRadius": 99999,
+              "height": 16,
+              "position": "absolute",
+              "width": 16,
+              "zIndex": 999,
+            },
+            Object {
+              "bottom": undefined,
+              "left": "70%",
+              "transform": Array [
+                Object {
+                  "translateX": -8,
+                },
+                Object {
+                  "scale": 1,
+                },
+              ],
+            },
+            undefined,
+          ]
+        }
+        zIndex={999}
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityRole="progressbar"
+    accessibilityValue={
+      Object {
+        "max": 100,
+        "min": 0,
+        "now": 60,
+      }
+    }
+    accessible={true}
+    aria-label="progressBar1"
+    bg="white"
+    colorScheme="lighBlue"
+    height={2}
+    innerBg="primary.500"
+    rounded="full"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 9999,
+          "height": 8,
+          "width": "80%",
+        },
+      ]
+    }
+    w="80%"
+  >
+    <View
+      alignItems="center"
+      bg="primary.500"
+      color="white"
+      display="flex"
+      height="100%"
+      justifyContent="center"
+      rounded="full"
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#06b6d4",
+            "borderRadius": 9999,
+            "color": "#FFFFFF",
+            "display": "flex",
+            "height": "100%",
+            "justifyContent": "center",
+            "width": "60%",
+          },
+          Object {
+            "elevation": 1,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.18,
+            "shadowRadius": 1,
+          },
+        ]
+      }
+      w="60%"
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

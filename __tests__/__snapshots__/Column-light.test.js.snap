@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    h="10"
+    style={
+      Array [
+        Object {
+          "height": 40,
+        },
+      ]
+    }
+  >
+    <View
+      bg="orange.100"
+      flexGrow={1}
+      h="5"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ffedd5",
+            "flexGrow": 1,
+            "height": 20,
+            "width": 100,
+          },
+        ]
+      }
+      w="100"
+    />
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    />
+    <View
+      bg="orange.400"
+      flexGrow={2}
+      h="5"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#fb923c",
+            "flexGrow": 2,
+            "height": 20,
+            "width": 100,
+          },
+        ]
+      }
+      w="100"
+    />
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    />
+    <View
+      bg="orange.500"
+      flexGrow={1}
+      h="5"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#f97316",
+            "flexGrow": 1,
+            "height": 20,
+            "width": 100,
+          },
+        ]
+      }
+      w="100"
+    />
+  </View>
+</RNCSafeAreaProvider>
+`;

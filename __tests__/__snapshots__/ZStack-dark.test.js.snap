@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    h="40"
+    mx="auto"
+    style={
+      Array [
+        Object {
+          "height": 160,
+          "marginLeft": "auto",
+          "marginRight": "auto",
+        },
+      ]
+    }
+  >
+    <View
+      ml={-10}
+      mt={10}
+      style={
+        Array [
+          Object {
+            "marginLeft": -40,
+            "marginTop": 40,
+          },
+        ]
+      }
+    >
+      <View
+        bg="primary.100"
+        ml={-5}
+        position="absolute"
+        rounded="lg"
+        size={20}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#cffafe",
+              "borderRadius": 6,
+              "height": 80,
+              "marginLeft": -20,
+              "position": "absolute",
+              "width": 80,
+            },
+          ]
+        }
+      />
+      <View
+        bg="primary.200"
+        ml={0}
+        mt={5}
+        position="absolute"
+        rounded="lg"
+        size={20}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#a5f3fc",
+              "borderRadius": 6,
+              "height": 80,
+              "marginLeft": 0,
+              "marginTop": 20,
+              "position": "absolute",
+              "width": 80,
+            },
+          ]
+        }
+      />
+      <View
+        bg="primary.300"
+        ml={5}
+        mt={10}
+        position="absolute"
+        rounded="lg"
+        size={20}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#67e8f9",
+              "borderRadius": 6,
+              "height": 80,
+              "marginLeft": 20,
+              "marginTop": 40,
+              "position": "absolute",
+              "width": 80,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
