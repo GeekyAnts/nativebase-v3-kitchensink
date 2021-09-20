@@ -1,24 +1,24 @@
-const shellJS = require('shelljs');
-const fs = require('fs');
-const { REPO_BRANCH, REPO_LINK } = require('./constants');
-const fsExtra = require('fs-extra');
-const URL = REPO_LINK + '.git';
-const path = __dirname + '/src/nb/NativeBase';
+const shellJS = require("shelljs");
+const fs = require("fs");
+const { REPO_BRANCH, REPO_LINK } = require("./constants");
+const fsExtra = require("fs-extra");
+const URL = REPO_LINK + ".git";
+const path = __dirname + "/src/nb/NativeBase";
 
 try {
   if (fs.existsSync(path)) {
     shellJS.cd(path);
-    shellJS.exec('git checkout ' + REPO_BRANCH);
-    shellJS.exec('git pull origin ' + REPO_BRANCH);
+    shellJS.exec("git checkout " + REPO_BRANCH);
+    shellJS.exec("git pull origin " + REPO_BRANCH);
   } else {
-    const PARENTFOLDER = __dirname + '/src/nb';
+    const PARENTFOLDER = __dirname + "/src/nb";
     shellJS.cd(PARENTFOLDER);
-    shellJS.exec('git clone ' + URL);
+    shellJS.exec("git clone " + URL);
   }
 
   const componentsPath =
-    __dirname + '/src/nb/NativeBase/example/storybook/stories/components';
-  const basicComponentsPath = __dirname + '/src/nb/components';
+    __dirname + "/src/nb/NativeBase/example/storybook/stories/components";
+  const basicComponentsPath = __dirname + "/src/nb/components";
   fs.rmdir(basicComponentsPath, { recursive: true }, (err) => {
     if (err) {
       throw err;
@@ -29,10 +29,10 @@ try {
 
       fsExtra.copy(componentsPath, basicComponentsPath, (err) => {
         if (err) {
-          console.log('Error occurred');
+          console.log("Error occurred", err);
           return;
         }
-        console.log('Copy completed');
+        console.log("Copy completed");
       });
     });
   });

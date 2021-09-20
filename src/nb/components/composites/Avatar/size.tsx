@@ -9,6 +9,7 @@ export const Example = () => {
       alignItems={{ base: 'center', md: 'flex-start' }}
     >
       <Avatar
+        bg="green.500"
         size="xs"
         source={{
           uri:
@@ -18,6 +19,7 @@ export const Example = () => {
         SS
       </Avatar>
       <Avatar
+        bg="cyan.500"
         size="sm"
         source={{
           uri:
@@ -27,6 +29,7 @@ export const Example = () => {
         HS
       </Avatar>
       <Avatar
+        bg="indigo.500"
         size="md"
         source={{
           uri:
@@ -36,6 +39,7 @@ export const Example = () => {
         RS
       </Avatar>
       <Avatar
+        bg="amber.500"
         size="lg"
         source={{
           uri:
@@ -45,6 +49,7 @@ export const Example = () => {
         AK
       </Avatar>
       <Avatar
+        bg="pink.600"
         size="xl"
         source={{
           uri:
@@ -54,6 +59,7 @@ export const Example = () => {
         GG
       </Avatar>
       <Avatar
+        bg="purple.600"
         size="2xl"
         source={{
           uri:
