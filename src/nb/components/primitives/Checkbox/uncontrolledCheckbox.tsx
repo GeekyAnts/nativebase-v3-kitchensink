@@ -3,11 +3,11 @@ import { Checkbox } from 'native-base';
 
 export const Example = () => {
   return (
-    <Checkbox.Group>
+    <Checkbox.Group accessibilityLabel="choose values">
       <Checkbox value="one" my={2}>
-        Hello world
+        Under 500
       </Checkbox>
-      <Checkbox value="two">Hello world</Checkbox>
+      <Checkbox value="two">Under 1000</Checkbox>
     </Checkbox.Group>
   );
 };
