@@ -8,6 +8,7 @@ export function Example() {
   return (
     <VStack space={6} alignSelf="flex-start" w="100%">
       <Menu
+        w="160"
         shouldOverlapWithTrigger={shouldOverlapWithTrigger}
         // @ts-ignore
         placement={position == 'auto' ? undefined : position}
@@ -19,21 +20,20 @@ export function Example() {
           );
         }}
       >
-        <Menu.Item>Large Menu item 1</Menu.Item>
-        <Menu.Item>Large Menu item 2</Menu.Item>
-        <Menu.Item>Large Menu item 3</Menu.Item>
+        <Menu.Item>Arial</Menu.Item>
+        <Menu.Item>Nunito Sans</Menu.Item>
+        <Menu.Item>Roboto</Menu.Item>
       </Menu>
 
       <Select
         selectedValue={position}
         mx={{ base: 0, md: 'auto' }}
-        accessibilityLabel="Select your favorite programming language"
-        placeholder="Select your favorite programming language"
         onValueChange={(nextValue) => setPosition(nextValue)}
         _selectedItem={{
           bg: 'cyan.600',
           endIcon: <CheckIcon size={4} />,
         }}
+        accessibilityLabel="Select a position for Menu"
       >
         <Select.Item label="auto" value="auto" />
         <Select.Item label="Top Left" value="top left" />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { useBreakpointValue } from 'native-base';
-import { ScrollView } from 'react-native';
+import { ScrollView } from 'native-base';
 import { MasonaryLayout } from '../../components/MasonLayout/MasonaryLayout';
 import { StoryBook } from '../../components/StoryBook';
 import { Layout } from '../../components/Layout';

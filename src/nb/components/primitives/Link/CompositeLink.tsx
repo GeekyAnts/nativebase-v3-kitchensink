@@ -1,35 +1,35 @@
 import React from 'react';
-import { Link, Box, Text } from 'native-base';
+import { Link, Text, Box, Flex, HStack, Spacer, Heading } from 'native-base';
 
 export const Example = () => {
   return (
     <Link
       href="https://nativebase.io"
       _hover={{ bg: 'primary.100' }}
-      justifyContent="center"
-      alignItems="center"
       isExternal
-      mt={4}
-      mx={4}
-      flexWrap="wrap"
     >
-      <Box p={4} bg="seagreen">
-        <Text color="white" fontSize={16}>
-          Box
+      <Box bg="cyan.700" p="5" w="296" rounded="8">
+        <HStack alignItems="flex-start">
+          <Text fontSize="xs" color="cyan.50" fontWeight="medium">
+            Open Source
+          </Text>
+          <Spacer />
+          <Text fontSize="2xs" color="cyan.100">
+            1 month ago
+          </Text>
+        </HStack>
+        <Heading color="cyan.50" mt="2" fontWeight="medium" fontSize="lg">
+          NativeBase
+        </Heading>
+        <Text mt="1" fontSize="sm" color="white">
+          NativeBase is a component library that enables devs to build universal
+          design systems.
         </Text>
-      </Box>
-      <Text
-        px={2}
-        my={1}
-        _light={{ color: 'blue.700' }}
-        _dark={{ color: 'blue.500' }}
-      >
-        Clicking anywhere will trigger the link
-      </Text>
-      <Box p={4} bg="emerald.700">
-        <Text color="white" fontSize={16}>
-          Box
-        </Text>
+        <Flex>
+          <Text mt="2" fontSize="xs" fontWeight="medium" color="cyan.400">
+            Read More
+          </Text>
+        </Flex>
       </Box>
     </Link>
   );
