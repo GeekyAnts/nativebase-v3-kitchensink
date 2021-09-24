@@ -1,18 +1,18 @@
 import React from 'react';
-import { CircularProgress, Box, } from 'native-base';
+import { Spinner } from 'native-base';
 
 export const Example = () => {
   return (
-    // <CircularProgress
-    //   size={12}
-    //   value={33}
-    //   trackColor="green.100"
-    //   colorScheme="green"
-    //   style={{
-    //     transform: [{ rotate: '77deg' }],
-    //   }}
-    //   aria-label="spinner"
-    // />
-    <Box></Box>
+    
+    <Spinner 
+      size="lg"
+      accessibilityLabel="Loading posts" 
+      _light={{
+        color: 'green.500',
+      }}
+      _dark={{
+        color: 'green.200',
+      }}
+    />
   );
 };
