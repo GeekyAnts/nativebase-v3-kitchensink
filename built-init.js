@@ -4,17 +4,33 @@ const { REPO_BRANCH, REPO_LINK } = require('./constants');
 const fsExtra = require('fs-extra');
 const URL = REPO_LINK + '.git';
 const path = __dirname + '/src/nb/NativeBase';
+var clone = false;
 
 try {
+ 
+
   if (fs.existsSync(path)) {
-    shellJS.cd(path);
-    shellJS.exec('git checkout ' + REPO_BRANCH);
-    shellJS.exec('git pull origin ' + REPO_BRANCH);
-  } else {
-    const PARENTFOLDER = __dirname + '/src/nb';
-    shellJS.cd(PARENTFOLDER);
-    shellJS.exec('git clone ' + URL);
+    fs.readdir(path, function(err, data) {
+      if (data.length !== 0) {
+        console.log(" folder contains files")
+        shellJS.cd(path);
+        shellJS.exec('git checkout ' + REPO_BRANCH);
+        shellJS.exec('git pull origin ' + REPO_BRANCH);
+      } 
+      else
+        {
+          clone = true;
+          console.log('cloning...')
+          const PARENTFOLDER = __dirname + '/src/nb';
+          shellJS.cd(PARENTFOLDER);
+          shellJS.exec('git clone ' + URL);
+      }
+    });
   }
+  else
+    console.log(`Your diectory does't conatins nb/NativeBase folder. Please create one.`);
+  
+  
 
   const componentsPath =
     __dirname + '/src/nb/NativeBase/example/storybook/stories/components';
