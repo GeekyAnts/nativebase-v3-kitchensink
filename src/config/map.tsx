@@ -15,7 +15,7 @@ export const mapping = {
   Actionsheet: {
     title: 'Actionsheet',
     description: '',
-    doclink: 'https://docs.nativebase.io/actionSheet',
+    doclink: 'https://docs.nativebase.io/action-sheet',
     basic: require('../components/NativeBaseComponents/Actionsheet'),
     components: [
       {
@@ -96,7 +96,7 @@ export const mapping = {
   AlertDialog: {
     title: 'AlertDialog',
     description: '',
-    doclink: 'https://docs.nativebase.io/alertDialog',
+    doclink: 'https://docs.nativebase.io/alert-dialog',
     basic: require('../components/NativeBaseComponents/AlertDialog'),
     components: [
       {
@@ -299,7 +299,7 @@ export const mapping = {
   CheckBox: {
     title: 'CheckBox',
     description: 'Primitive Element',
-    doclink: 'https://docs.nativebase.io/checkBox',
+    doclink: 'https://docs.nativebase.io/checkbox',
     basic: require('../components/NativeBaseComponents/CheckBox'),
     components: [
       {
@@ -367,7 +367,7 @@ export const mapping = {
   Column: {
     title: 'Column',
     description: 'Renders your data vertically',
-    doclink: 'https://docs.nativebase.io/VStack',
+    doclink: 'https://docs.nativebase.io/v-stack',
     basic: require('../components/NativeBaseComponents/Column'),
     components: [
       {
@@ -403,7 +403,7 @@ export const mapping = {
   Fab: {
     title: 'Fab',
     description: '',
-    doclink: 'https://docs.nativebase.io/FAB',
+    doclink: 'https://docs.nativebase.io/fab',
     basic: require('../components/NativeBaseComponents/Fab'),
     components: [
       {
@@ -444,7 +444,7 @@ export const mapping = {
   FlatList: {
     title: 'FlatList',
     description: '',
-    doclink: 'https://docs.nativebase.io/flatList',
+    doclink: 'https://docs.nativebase.io/flat-list',
     basic: require('../components/NativeBaseComponents/FlatList'),
     components: [
       {
@@ -457,7 +457,7 @@ export const mapping = {
   FormControl: {
     title: 'FormControl',
     description: '',
-    doclink: 'https://docs.nativebase.io/formControl',
+    doclink: 'https://docs.nativebase.io/form-control',
     basic: require('../components/NativeBaseComponents/FormControl'),
     components: [
       {
@@ -508,7 +508,7 @@ export const mapping = {
   HStack: {
     title: 'HStack',
     description: 'Rows structure',
-    doclink: 'https://docs.nativebase.io/hStack',
+    doclink: 'https://docs.nativebase.io/h-stack',
     basic: require('../components/NativeBaseComponents/HStack'),
     components: [
       {
@@ -554,7 +554,7 @@ export const mapping = {
   IconButton: {
     title: 'IconButton',
     description: '',
-    doclink: 'https://docs.nativebase.io/iconButton',
+    doclink: 'https://docs.nativebase.io/icon-button',
     basic: require('../components/NativeBaseComponents/IconButton'),
     components: [
       {
@@ -663,7 +663,7 @@ export const mapping = {
   KeyboardAvoidingView: {
     title: 'KeyboardAvoidingView',
     description: '',
-    doclink: 'https://docs.nativebase.io/keyboardAvoidingView',
+    doclink: 'https://docs.nativebase.io/keyboard-avoiding-view',
     basic: require('../components/NativeBaseComponents/KeyboardAvoidingView'),
     components: [
       {
@@ -818,7 +818,7 @@ export const mapping = {
   Popover: {
     title: 'Popover',
     description: '',
-    doclink: 'https://docs.nativebase.io/popOver',
+    doclink: 'https://docs.nativebase.io/popover',
     basic: require('../components/NativeBaseComponents/Popover'),
     components: [
       {
@@ -968,7 +968,7 @@ export const mapping = {
   SectionList: {
     title: 'SectionList',
     description: '',
-    doclink: 'https://docs.nativebase.io/sectionList',
+    doclink: 'https://docs.nativebase.io/section-list',
     basic: require('../components/NativeBaseComponents/SectionList'),
     components: [
       {
@@ -1103,7 +1103,7 @@ export const mapping = {
   StatusBar: {
     title: 'StatusBar',
     description: '',
-    doclink: 'https://docs.nativebase.io/statusBar',
+    doclink: 'https://docs.nativebase.io/status-bar',
     basic: require('../components/NativeBaseComponents/StatusBar'),
     components: [
       {
@@ -1154,7 +1154,7 @@ export const mapping = {
   Tabs: {
     title: 'Tabs',
     description: '',
-    doclink: 'https://docs.nativebase.io/tabs',
+    doclink: 'https://docs.nativebase.io/building-tab-view',
     basic: require('../components/NativeBaseComponents/Tabs'),
     components: [
       {
@@ -1245,7 +1245,7 @@ export const mapping = {
   TextArea: {
     title: 'TextArea',
     description: '',
-    doclink: 'https://docs.nativebase.io/textArea',
+    doclink: 'https://docs.nativebase.io/textarea',
     basic: require('../components/NativeBaseComponents/TextArea'),
     components: [
       {
@@ -1395,7 +1395,7 @@ export const mapping = {
   VStack: {
     title: 'VStack',
     description: '',
-    doclink: 'https://docs.nativebase.io/VStack',
+    doclink: 'https://docs.nativebase.io/v-stack',
     basic: require('../components/NativeBaseComponents/VStack'),
     components: [
       {
@@ -1408,7 +1408,7 @@ export const mapping = {
   ZStack: {
     title: 'ZStack',
     description: '',
-    doclink: 'https://docs.nativebase.io/ZStack',
+    doclink: 'https://docs.nativebase.io/z-stack',
     basic: require('../components/NativeBaseComponents/ZStack'),
     components: [
       // {
