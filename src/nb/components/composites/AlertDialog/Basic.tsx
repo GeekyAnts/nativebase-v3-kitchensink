@@ -1,6 +1,6 @@
 import React from 'react';
 import { AlertDialog, Button, Center } from 'native-base';
-import type { TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 
 export const Example = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -26,7 +26,7 @@ export const Example = () => {
           <AlertDialog.Footer>
             <Button.Group space={2}>
               <Button
-                variant="ghost"
+                variant="unstyled"
                 colorScheme="coolGray"
                 onPress={onClose}
                 ref={cancelRef}
