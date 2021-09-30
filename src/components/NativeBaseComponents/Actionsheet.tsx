@@ -33,7 +33,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+         rounded="25"
           mx={4}
           w="40%"
         />
@@ -45,7 +45,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+         rounded="25"
           mx={4}
           w="50%"
         />
@@ -57,7 +57,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+         rounded="25"
           mx={4}
           w="37%"
         />
@@ -69,7 +69,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+         rounded="25"
           mx={4}
           w="47%"
         />

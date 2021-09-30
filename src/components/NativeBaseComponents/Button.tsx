@@ -38,7 +38,7 @@ export const Example = () => {
         _dark={{
           bg: 'gray.100',
         }}
-        rounded="pill"
+        rounded="25"
         h="11px"
       />
     </Box>

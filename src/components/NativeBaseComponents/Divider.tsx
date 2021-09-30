@@ -8,7 +8,6 @@ export const Example = () => {
       w={20}
       divider={
         <Divider
-          border={2}
           _light={{ borderColor: 'violet.100' }}
           _dark={{ borderColor: 'violet.600' }}
         />
@@ -20,7 +19,6 @@ export const Example = () => {
         h={20}
         divider={
           <Divider
-            border={2}
             _light={{ borderColor: 'violet.100' }}
             _dark={{ borderColor: 'violet.600' }}
           />
