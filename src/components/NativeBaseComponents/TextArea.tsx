@@ -14,7 +14,7 @@ export const Example = () => {
             bg: 'gray.100',
           }}
           h="8px"
-          rounded="pill"
+          rounded="25"
           w={{ base: '60%', lg: '40%' }}
           mx={5}
           mb={2}
@@ -28,7 +28,7 @@ export const Example = () => {
             bg: 'gray.100',
           }}
           h="8px"
-          rounded="pill"
+          rounded="25"
           w={{ base: '40%', lg: '30%' }}
           mx={5}
         />

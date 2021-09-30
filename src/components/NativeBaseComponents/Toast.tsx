@@ -48,7 +48,7 @@ export const Example = () => {
               bg: 'gray.100',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="100%"
           />
         </VStack>
@@ -101,7 +101,7 @@ export const Example = () => {
               bg: 'gray.100',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="100%"
           />
         </VStack>
@@ -154,7 +154,7 @@ export const Example = () => {
               bg: 'gray.100',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="100%"
           />
         </VStack>

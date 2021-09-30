@@ -25,7 +25,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+          rounded="25"
           w="80%"
         />
         <Box
@@ -36,7 +36,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+          rounded="25"
           w="80%"
         />
 
@@ -48,7 +48,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+          rounded="25"
           w="80%"
         />
         <Box
@@ -59,7 +59,7 @@ export const Example = () => {
             bg: 'cyan.200',
           }}
           h="8px"
-          rounded="pill"
+          rounded="25"
           w="80%"
         />
         <Box alignItems="flex-start" w="80%">
@@ -71,7 +71,7 @@ export const Example = () => {
               bg: 'cyan.400',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="47%"
           />
         </Box>

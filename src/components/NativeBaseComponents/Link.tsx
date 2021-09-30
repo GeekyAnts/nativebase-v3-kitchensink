@@ -4,7 +4,6 @@ import { Box } from 'native-base';
 export const Example = () => {
   return (
     <Box
-      border={1}
       borderColor="transparent"
       _light={{
         borderBottomColor: 'gray.600',
@@ -21,7 +20,7 @@ export const Example = () => {
         _dark={{
           bg: 'gray.100',
         }}
-        rounded="pill"
+        rounded="25"
         h="11px"
         mb={1}
         w="100%"

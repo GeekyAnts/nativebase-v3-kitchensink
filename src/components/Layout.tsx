@@ -43,7 +43,7 @@ export const Layout = ({
       <Box
         {...props}
         flex={1}
-        flexBasis="0px"
+        flexBasis="0" 
         px={4}
         mx="auto"
         pt={navigation ? '70px' : 0}

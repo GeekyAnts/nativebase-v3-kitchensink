@@ -59,9 +59,9 @@ export function Example() {
           space={4}
           divider={
             <Divider
-              border={1}
+              
               _light={{
-                borderColor: 'cyan.300',
+                borderColor: 'red.300',
               }}
               _dark={{
                 borderColor: 'cyan.200',
@@ -80,7 +80,7 @@ export function Example() {
               bg: 'cyan.200',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="80%"
           />
           <Box
@@ -91,7 +91,7 @@ export function Example() {
               bg: 'cyan.200',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="80%"
           />
           <Box
@@ -102,7 +102,7 @@ export function Example() {
               bg: 'cyan.200',
             }}
             h="8px"
-            rounded="pill"
+            rounded="25"
             w="80%"
           />
         </VStack>
