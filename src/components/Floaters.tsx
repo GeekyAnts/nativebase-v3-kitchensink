@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Fab, useColorMode, Icon } from 'native-base';
-import { Ionicons } from '@expo/vector-icons';
+import { Fab, useColorMode, Icon, MoonIcon, SunIcon, useColorModeValue } from 'native-base';
 import { Logo } from './Logo';
 
 export const Floaters = () => {
@@ -48,12 +47,7 @@ export const Floaters = () => {
         }}
         p={3}
         icon={
-          <Icon
-            as={Ionicons}
-            _dark={{ name: 'sunny', color: 'orange.400' }}
-            _light={{ name: 'moon', color: 'blueGray.100' }}
-            size="md"
-          />
+           useColorModeValue(<MoonIcon /> , <SunIcon color="orange.400"/>)
         }
         onPress={toggleColorMode}
       />
