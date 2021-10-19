@@ -15,8 +15,8 @@ export const Example = () => {
       opacity={0.5}
     >
       <Checkbox
-         value=""
-         accessibilityLabel="This is a checkbox"
+        value=""
+        accessibilityLabel="This is a checkbox"
         isChecked={true}
         colorScheme="red"
         aria-label="chk123"
