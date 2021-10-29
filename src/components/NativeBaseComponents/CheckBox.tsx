@@ -16,6 +16,7 @@ export const Example = () => {
     >
       <Checkbox
         value=""
+        accessibilityLabel="This is a checkbox"
         isChecked={true}
         colorScheme="red"
         aria-label="chk123"
