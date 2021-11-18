@@ -2,6 +2,32 @@
 
 A sample application that showcases various components that come built-in with NativeBase v3.
 
+## Run the App
+
+Default
+
+```
+yarn start
+```
+
+WEB
+
+```
+yarn web
+```
+
+IOS
+
+```
+yarn ios
+```
+
+Android
+
+```
+yarn android
+```
+
 ## Example
 
 Here is a screenshot of the sample application:

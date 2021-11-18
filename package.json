@@ -1,13 +1,13 @@
 {
 	"scripts": {
-		"start": "react-native start",
-		"android": "react-native run-android",
-		"ios": "react-native run-ios",
-		"web": "expo start --web",
+		"start": "node ./built-init && expo start",
+		"android": "node ./built-init && react-native run-android",
+		"ios": "node ./built-init && react-native run-ios",
+		"web": "node ./built-init && expo start --web",
 		"eject": "expo eject",
 		"create-snapshots": "node snapshot/create-snapshots.js",
 		"test": "jest __tests__/",
-		"web-build": "node ./built-init.js && expo build:web && node ./copy-robots.js"
+		"web-build": "node ./built-init && expo build:web && node ./copy-robots.js"
 	},
 	"jest": {
 		"preset": "jest-expo"
