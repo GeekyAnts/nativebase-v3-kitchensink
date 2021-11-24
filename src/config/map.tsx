@@ -1008,22 +1008,22 @@ export const mapping = {
     basic: require("../components/NativeBaseComponents/Skeleton"),
     components: [
       {
-        component: require("../nb/components/primitives/Skeleton/Basic"),
+        component: require("../nb/components/composites/Skeleton/Basic"),
         title: "Basic",
         description: "",
       },
       {
-        component: require("../nb/components/primitives/Skeleton/Color"),
+        component: require("../nb/components/composites/Skeleton/Color"),
         title: "Color",
         description: "",
       },
       {
-        component: require("../nb/components/primitives/Skeleton/Composition"),
+        component: require("../nb/components/composites/Skeleton/Composition"),
         title: "Composition",
         description: "",
       },
       {
-        component: require("../nb/components/primitives/Skeleton/IsLoaded"),
+        component: require("../nb/components/composites/Skeleton/IsLoaded"),
         title: "IsLoaded",
         description: "",
       },
