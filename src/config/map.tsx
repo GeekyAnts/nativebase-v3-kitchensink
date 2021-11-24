@@ -1023,7 +1023,7 @@ export const mapping = {
         description: "",
       },
       {
-        component: require("../nb/components/composites/Skeleton/IsLoaded"),
+        component: require("../nb/components/composites/Skeleton/isLoaded"),
         title: "IsLoaded",
         description: "",
       },
