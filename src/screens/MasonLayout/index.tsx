@@ -1,10 +1,10 @@
-import React from 'react';
-import { StackNavigationProp } from '@react-navigation/stack';
-import { useBreakpointValue } from 'native-base';
-import { ScrollView } from 'native-base';
-import { MasonaryLayout } from '../../components/MasonLayout/MasonaryLayout';
-import { StoryBook } from '../../components/StoryBook';
-import { Layout } from '../../components/Layout';
+import React from "react";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { useBreakpointValue } from "native-base";
+import { ScrollView } from "native-base";
+import { MasonaryLayout } from "../../components/MasonLayout/MasonaryLayout";
+import { StoryBook } from "../../components/StoryBook";
+import { Layout } from "../../components/Layout";
 
 export function MasonLayout({
   navigation,
@@ -14,7 +14,7 @@ export function MasonLayout({
   return (
     <Layout>
       <ScrollView
-        contentContainerStyle={{ width: '100%' }}
+        contentContainerStyle={{ width: "100%" }}
         showsVerticalScrollIndicator={false}
       >
         <MasonaryLayout
@@ -28,7 +28,7 @@ export function MasonLayout({
           _hStack={{
             space: 4,
             mb: 4,
-            pt: '70px',
+            pt: "70px",
           }}
           _vStack={{ space: 4 }}
         >
@@ -37,11 +37,11 @@ export function MasonLayout({
             name="Actionsheet"
             minH={32}
             _box={{
-              lightGrad: ['cyan.400', 'teal.200'],
-              darkGrad: ['cyan.600', 'teal.300'],
+              lightGrad: ["cyan.400", "teal.200"],
+              darkGrad: ["cyan.600", "teal.300"],
             }}
             _heading={{
-              color: 'amber.100',
+              color: "amber.100",
             }}
           />
           <StoryBook
@@ -49,11 +49,11 @@ export function MasonLayout({
             name="Alert"
             minH={40}
             _box={{
-              lightGrad: ['orange.400', 'amber.200'],
-              darkGrad: ['orange.600', 'amber.300'],
+              lightGrad: ["orange.400", "amber.200"],
+              darkGrad: ["orange.600", "amber.300"],
             }}
             _heading={{
-              color: 'amber.100',
+              color: "amber.100",
             }}
           />
 
@@ -62,11 +62,11 @@ export function MasonLayout({
             name="AlertDialog"
             minH={48}
             _box={{
-              lightGrad: ['blue.800', 'lightBlue.300'],
-              darkGrad: ['blue.900', 'lightBlue.500'],
+              lightGrad: ["blue.800", "lightBlue.300"],
+              darkGrad: ["blue.900", "lightBlue.500"],
             }}
             _heading={{
-              color: 'amber.100',
+              color: "amber.100",
             }}
           />
           <StoryBook
@@ -74,11 +74,11 @@ export function MasonLayout({
             name="Avatar"
             minH={48}
             _box={{
-              lightGrad: ['violet.800', 'lightBlue.300'],
-              darkGrad: ['violet.900', 'lightBlue.500'],
+              lightGrad: ["violet.800", "lightBlue.300"],
+              darkGrad: ["violet.900", "lightBlue.500"],
             }}
             _heading={{
-              color: 'lightBlue.100',
+              color: "lightBlue.100",
             }}
           />
           <StoryBook
@@ -86,11 +86,11 @@ export function MasonLayout({
             name="Badge"
             minH={32}
             _box={{
-              lightGrad: ['emerald.400', 'lime.200'],
-              darkGrad: ['emerald.600', 'lime.300'],
+              lightGrad: ["emerald.400", "lime.200"],
+              darkGrad: ["emerald.600", "lime.300"],
             }}
             _heading={{
-              color: 'lime.100',
+              color: "lime.100",
             }}
           />
           <StoryBook
@@ -98,11 +98,11 @@ export function MasonLayout({
             name="Box"
             minH={40}
             _box={{
-              lightGrad: ['fuchsia.800', 'pink.300'],
-              darkGrad: ['fuchsia.900', 'pink.500'],
+              lightGrad: ["fuchsia.800", "pink.300"],
+              darkGrad: ["fuchsia.900", "pink.500"],
             }}
             _heading={{
-              color: 'pink.100',
+              color: "pink.100",
             }}
           />
 
@@ -111,11 +111,11 @@ export function MasonLayout({
             name="Button"
             minH={40}
             _box={{
-              lightGrad: ['lightBlue.400', 'cyan.200'],
-              darkGrad: ['lightBlue.600', 'cyan.300'],
+              lightGrad: ["lightBlue.400", "cyan.200"],
+              darkGrad: ["lightBlue.600", "cyan.300"],
             }}
             _heading={{
-              color: 'cyan.100',
+              color: "cyan.100",
             }}
           />
 
@@ -124,11 +124,11 @@ export function MasonLayout({
             name="Center"
             minH={40}
             _box={{
-              lightGrad: ['cyan.300', 'yellow.200'],
-              darkGrad: ['cyan.400', 'yellow.300'],
+              lightGrad: ["cyan.300", "yellow.200"],
+              darkGrad: ["cyan.400", "yellow.300"],
             }}
             _heading={{
-              color: 'yellow.100',
+              color: "yellow.100",
             }}
           />
 
@@ -137,11 +137,11 @@ export function MasonLayout({
             name="CheckBox"
             minH={32}
             _box={{
-              lightGrad: ['rose.400', 'red.200'],
-              darkGrad: ['rose.600', 'red.300'],
+              lightGrad: ["rose.400", "red.200"],
+              darkGrad: ["rose.600", "red.300"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
 
@@ -150,11 +150,11 @@ export function MasonLayout({
             name="Column"
             minH={32}
             _box={{
-              lightGrad: ['orange.400', 'yellow.200'],
-              darkGrad: ['orange.600', 'yellow.300'],
+              lightGrad: ["orange.400", "yellow.200"],
+              darkGrad: ["orange.600", "yellow.300"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
           <StoryBook
@@ -162,11 +162,11 @@ export function MasonLayout({
             name="Divider"
             minH={40}
             _box={{
-              lightGrad: ['fuchsia.400', 'violet.200'],
-              darkGrad: ['fuchsia.600', 'violet.300'],
+              lightGrad: ["fuchsia.400", "violet.200"],
+              darkGrad: ["fuchsia.600", "violet.300"],
             }}
             _heading={{
-              color: 'violet.100',
+              color: "violet.100",
             }}
           />
           <StoryBook
@@ -174,11 +174,11 @@ export function MasonLayout({
             name="Fab"
             minH={40}
             _box={{
-              lightGrad: ['green.400', 'lime.200'],
-              darkGrad: ['green.600', 'lime.300'],
+              lightGrad: ["green.400", "lime.200"],
+              darkGrad: ["green.600", "lime.300"],
             }}
             _heading={{
-              color: 'lime.100',
+              color: "lime.100",
             }}
           />
           <StoryBook
@@ -186,11 +186,11 @@ export function MasonLayout({
             name="FlatList"
             minH={24}
             _box={{
-              lightGrad: ['darkBlue.400', 'indigo.200'],
-              darkGrad: ['darkBlue.600', 'indigo.300'],
+              lightGrad: ["darkBlue.400", "indigo.200"],
+              darkGrad: ["darkBlue.600", "indigo.300"],
             }}
             _heading={{
-              color: 'teal.100',
+              color: "teal.100",
             }}
           />
           <StoryBook
@@ -198,11 +198,11 @@ export function MasonLayout({
             name="Flex"
             minH={32}
             _box={{
-              lightGrad: ['cyan.400', 'teal.200'],
-              darkGrad: ['cyan.600', 'teal.300'],
+              lightGrad: ["cyan.400", "teal.200"],
+              darkGrad: ["cyan.600", "teal.300"],
             }}
             _heading={{
-              color: 'teal.100',
+              color: "teal.100",
             }}
           />
           <StoryBook
@@ -210,11 +210,11 @@ export function MasonLayout({
             name="FormControl"
             minH={56}
             _box={{
-              lightGrad: ['lightBlue.400', 'cyan.200'],
-              darkGrad: ['lightBlue.600', 'cyan.300'],
+              lightGrad: ["lightBlue.400", "cyan.200"],
+              darkGrad: ["lightBlue.600", "cyan.300"],
             }}
             _heading={{
-              color: 'cyan.100',
+              color: "cyan.100",
             }}
           />
           <StoryBook
@@ -222,11 +222,11 @@ export function MasonLayout({
             name="Heading"
             minH={32}
             _box={{
-              lightGrad: ['teal.400', 'violet.200'],
-              darkGrad: ['teal.600', 'violet.300'],
+              lightGrad: ["teal.400", "violet.200"],
+              darkGrad: ["teal.600", "violet.300"],
             }}
             _heading={{
-              color: 'violet.100',
+              color: "violet.100",
             }}
           />
           <StoryBook
@@ -234,11 +234,11 @@ export function MasonLayout({
             name="HStack"
             minH={32}
             _box={{
-              lightGrad: ['orange.400', 'yellow.200'],
-              darkGrad: ['orange.600', 'yellow.300'],
+              lightGrad: ["orange.400", "yellow.200"],
+              darkGrad: ["orange.600", "yellow.300"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
 
@@ -247,11 +247,11 @@ export function MasonLayout({
             name="Icon"
             minH={32}
             _box={{
-              lightGrad: ['rose.400', 'red.200'],
-              darkGrad: ['rose.600', 'red.300'],
+              lightGrad: ["rose.400", "red.200"],
+              darkGrad: ["rose.600", "red.300"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
 
@@ -260,11 +260,11 @@ export function MasonLayout({
             name="IconButton"
             minH={32}
             _box={{
-              lightGrad: ['blue.800', 'lightBlue.300'],
-              darkGrad: ['blue.900', 'lightBlue.500'],
+              lightGrad: ["blue.800", "lightBlue.300"],
+              darkGrad: ["blue.900", "lightBlue.500"],
             }}
             _heading={{
-              color: 'lightBlue.100',
+              color: "lightBlue.100",
             }}
           />
           <StoryBook
@@ -272,11 +272,11 @@ export function MasonLayout({
             name="Image"
             minH={48}
             _box={{
-              lightGrad: ['emerald.400', 'lime.200'],
-              darkGrad: ['emerald.600', 'lime.300'],
+              lightGrad: ["emerald.400", "lime.200"],
+              darkGrad: ["emerald.600", "lime.300"],
             }}
             _heading={{
-              color: 'lime.100',
+              color: "lime.100",
             }}
           />
           <StoryBook
@@ -284,11 +284,11 @@ export function MasonLayout({
             name="Input"
             minH={32}
             _box={{
-              lightGrad: ['emerald.400', 'teal.200'],
-              darkGrad: ['emerald.600', 'teal.300'],
+              lightGrad: ["emerald.400", "teal.200"],
+              darkGrad: ["emerald.600", "teal.300"],
             }}
             _heading={{
-              color: 'teal.100',
+              color: "teal.100",
             }}
           />
           <StoryBook
@@ -296,11 +296,11 @@ export function MasonLayout({
             name="KeyboardAvoidingView"
             minH={32}
             _box={{
-              lightGrad: ['cyan.400', 'teal.200'],
-              darkGrad: ['cyan.600', 'teal.300'],
+              lightGrad: ["cyan.400", "teal.200"],
+              darkGrad: ["cyan.600", "teal.300"],
             }}
             _heading={{
-              color: 'lime.100',
+              color: "lime.100",
             }}
           />
           <StoryBook
@@ -308,11 +308,11 @@ export function MasonLayout({
             name="Link"
             minH={24}
             _box={{
-              lightGrad: ['rose.400', 'orange.300'],
-              darkGrad: ['rose.600', 'orange.400'],
+              lightGrad: ["rose.400", "orange.300"],
+              darkGrad: ["rose.600", "orange.400"],
             }}
             _heading={{
-              color: 'orange.100',
+              color: "orange.100",
             }}
           />
           <StoryBook
@@ -320,11 +320,11 @@ export function MasonLayout({
             name="Menu"
             minH={64}
             _box={{
-              lightGrad: ['cyan.300', 'yellow.200'],
-              darkGrad: ['cyan.400', 'yellow.300'],
+              lightGrad: ["cyan.300", "yellow.200"],
+              darkGrad: ["cyan.400", "yellow.300"],
             }}
             _heading={{
-              color: 'yellow.100',
+              color: "yellow.100",
             }}
           />
 
@@ -333,11 +333,11 @@ export function MasonLayout({
             name="Modal"
             minH={48}
             _box={{
-              lightGrad: ['indigo.400', 'red.200'],
-              darkGrad: ['indigo.500', 'red.200'],
+              lightGrad: ["indigo.400", "red.200"],
+              darkGrad: ["indigo.500", "red.200"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
           <StoryBook
@@ -345,11 +345,11 @@ export function MasonLayout({
             name="Popover"
             minH={48}
             _box={{
-              lightGrad: ['darkBlue.400', 'blue.200'],
-              darkGrad: ['darkBlue.600', 'blue.300'],
+              lightGrad: ["darkBlue.400", "blue.200"],
+              darkGrad: ["darkBlue.600", "blue.300"],
             }}
             _heading={{
-              color: 'blue.100',
+              color: "blue.100",
             }}
           />
           <StoryBook
@@ -357,11 +357,11 @@ export function MasonLayout({
             name="Pressable"
             minH={40}
             _box={{
-              lightGrad: ['green.400', 'lime.200'],
-              darkGrad: ['green.600', 'lime.300'],
+              lightGrad: ["green.400", "lime.200"],
+              darkGrad: ["green.600", "lime.300"],
             }}
             _heading={{
-              color: 'lime.100',
+              color: "lime.100",
             }}
           />
           <StoryBook
@@ -369,11 +369,11 @@ export function MasonLayout({
             name="Progress"
             minH={24}
             _box={{
-              lightGrad: ['darkBlue.400', 'teal.200'],
-              darkGrad: ['darkBlue.600', 'teal.300'],
+              lightGrad: ["darkBlue.400", "teal.200"],
+              darkGrad: ["darkBlue.600", "teal.300"],
             }}
             _heading={{
-              color: 'teal.100',
+              color: "teal.100",
             }}
           />
           <StoryBook
@@ -381,11 +381,11 @@ export function MasonLayout({
             name="Radio"
             minH={40}
             _box={{
-              lightGrad: ['orange.400', 'amber.200'],
-              darkGrad: ['orange.600', 'amber.300'],
+              lightGrad: ["orange.400", "amber.200"],
+              darkGrad: ["orange.600", "amber.300"],
             }}
             _heading={{
-              color: 'amber.100',
+              color: "amber.100",
             }}
           />
           <StoryBook
@@ -393,11 +393,11 @@ export function MasonLayout({
             name="ScrollView"
             minH={32}
             _box={{
-              lightGrad: ['indigo.400', 'red.200'],
-              darkGrad: ['indigo.500', 'red.200'],
+              lightGrad: ["indigo.400", "red.200"],
+              darkGrad: ["indigo.500", "red.200"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
           <StoryBook
@@ -405,11 +405,11 @@ export function MasonLayout({
             name="SectionList"
             minH={56}
             _box={{
-              lightGrad: ['violet.400', 'fuchsia.200'],
-              darkGrad: ['violet.600', 'fuchsia.300'],
+              lightGrad: ["violet.400", "fuchsia.200"],
+              darkGrad: ["violet.600", "fuchsia.300"],
             }}
             _heading={{
-              color: 'yellow.100',
+              color: "yellow.100",
             }}
           />
           <StoryBook
@@ -417,11 +417,23 @@ export function MasonLayout({
             name="Select"
             minH={32}
             _box={{
-              lightGrad: ['lightBlue.400', 'cyan.200'],
-              darkGrad: ['lightBlue.600', 'cyan.300'],
+              lightGrad: ["lightBlue.400", "cyan.200"],
+              darkGrad: ["lightBlue.600", "cyan.300"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
+            }}
+          />
+          <StoryBook
+            navigation={navigation}
+            name="Skeleton"
+            minH={48}
+            _box={{
+              lightGrad: ["cyan.300", "yellow.200"],
+              darkGrad: ["cyan.400", "yellow.300"],
+            }}
+            _heading={{
+              color: "cyan.100",
             }}
           />
           <StoryBook
@@ -429,11 +441,11 @@ export function MasonLayout({
             name="Slider"
             minH={24}
             _box={{
-              lightGrad: ['fuchsia.400', 'pink.200'],
-              darkGrad: ['fuchsia.600', 'pink.300'],
+              lightGrad: ["fuchsia.400", "pink.200"],
+              darkGrad: ["fuchsia.600", "pink.300"],
             }}
             _heading={{
-              color: 'pink.100',
+              color: "pink.100",
             }}
           />
 
@@ -442,11 +454,11 @@ export function MasonLayout({
             name="Spinner"
             minH={32}
             _box={{
-              lightGrad: ['green.400', 'yellow.200'],
-              darkGrad: ['green.600', 'yellow.300'],
+              lightGrad: ["green.400", "yellow.200"],
+              darkGrad: ["green.600", "yellow.300"],
             }}
             _heading={{
-              color: 'yellow.100',
+              color: "yellow.100",
             }}
           />
           <StoryBook
@@ -454,11 +466,11 @@ export function MasonLayout({
             name="Stack"
             minH={40}
             _box={{
-              lightGrad: ['purple.400', 'red.200'],
-              darkGrad: ['purple.600', 'red.300'],
+              lightGrad: ["purple.400", "red.200"],
+              darkGrad: ["purple.600", "red.300"],
             }}
             _heading={{
-              color: 'cyan.100',
+              color: "cyan.100",
             }}
           />
           <StoryBook
@@ -466,11 +478,11 @@ export function MasonLayout({
             name="Switch"
             minH={32}
             _box={{
-              lightGrad: ['cyan.300', 'yellow.200'],
-              darkGrad: ['cyan.400', 'yellow.300'],
+              lightGrad: ["cyan.300", "yellow.200"],
+              darkGrad: ["cyan.400", "yellow.300"],
             }}
             _heading={{
-              color: 'cyan.100',
+              color: "cyan.100",
             }}
           />
           {/* Tabs are deprecated */}
@@ -491,11 +503,11 @@ export function MasonLayout({
             name="Text"
             minH={32}
             _box={{
-              lightGrad: ['rose.400', 'orange.300'],
-              darkGrad: ['rose.600', 'orange.400'],
+              lightGrad: ["rose.400", "orange.300"],
+              darkGrad: ["rose.600", "orange.400"],
             }}
             _heading={{
-              color: 'orange.100',
+              color: "orange.100",
             }}
           />
           <StoryBook
@@ -503,11 +515,11 @@ export function MasonLayout({
             name="TextArea"
             minH={40}
             _box={{
-              lightGrad: ['teal.400', 'lime.200'],
-              darkGrad: ['teal.600', 'lime.300'],
+              lightGrad: ["teal.400", "lime.200"],
+              darkGrad: ["teal.600", "lime.300"],
             }}
             _heading={{
-              color: 'lime.100',
+              color: "lime.100",
             }}
           />
 
@@ -516,11 +528,11 @@ export function MasonLayout({
             name="Toast"
             minH={32}
             _box={{
-              lightGrad: ['darkBlue.400', 'indigo.200'],
-              darkGrad: ['darkBlue.600', 'indigo.300'],
+              lightGrad: ["darkBlue.400", "indigo.200"],
+              darkGrad: ["darkBlue.600", "indigo.300"],
             }}
             _heading={{
-              color: 'indigo.100',
+              color: "indigo.100",
             }}
           />
           <StoryBook
@@ -528,11 +540,11 @@ export function MasonLayout({
             name="Tooltip"
             minH={40}
             _box={{
-              lightGrad: ['violet.400', 'fuchsia.200'],
-              darkGrad: ['violet.600', 'fuchsia.300'],
+              lightGrad: ["violet.400", "fuchsia.200"],
+              darkGrad: ["violet.600", "fuchsia.300"],
             }}
             _heading={{
-              color: 'fuchsia.100',
+              color: "fuchsia.100",
             }}
           />
           <StoryBook
@@ -540,11 +552,11 @@ export function MasonLayout({
             name="Transitions"
             minH={48}
             _box={{
-              lightGrad: ['amber.400', 'yellow.200'],
-              darkGrad: ['amber.600', 'yellow.300'],
+              lightGrad: ["amber.400", "yellow.200"],
+              darkGrad: ["amber.600", "yellow.300"],
             }}
             _heading={{
-              color: 'yellow.100',
+              color: "yellow.100",
             }}
           />
           <StoryBook
@@ -552,11 +564,11 @@ export function MasonLayout({
             name="View"
             minH={40}
             _box={{
-              lightGrad: ['blue.800', 'lightBlue.300'],
-              darkGrad: ['blue.900', 'lightBlue.500'],
+              lightGrad: ["blue.800", "lightBlue.300"],
+              darkGrad: ["blue.900", "lightBlue.500"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
           <StoryBook
@@ -564,11 +576,11 @@ export function MasonLayout({
             name="VStack"
             minH={40}
             _box={{
-              lightGrad: ['rose.400', 'red.200'],
-              darkGrad: ['rose.600', 'red.300'],
+              lightGrad: ["rose.400", "red.200"],
+              darkGrad: ["rose.600", "red.300"],
             }}
             _heading={{
-              color: 'red.100',
+              color: "red.100",
             }}
           />
 
@@ -578,11 +590,11 @@ export function MasonLayout({
             // flex={4}
             minH={48}
             _box={{
-              lightGrad: ['cyan.400', 'lightBlue.200'],
-              darkGrad: ['cyan.600', 'lightBlue.300'],
+              lightGrad: ["cyan.400", "lightBlue.200"],
+              darkGrad: ["cyan.600", "lightBlue.300"],
             }}
             _heading={{
-              color: 'lightBlue.100',
+              color: "lightBlue.100",
             }}
           />
         </MasonaryLayout>
