@@ -189,7 +189,7 @@ export const mapping = {
         description: "",
       },
       {
-        component: "",
+        component: require("../nb/components/primitives/ButtonGroup/basic"),
         title: "ButtonGroup",
         description: "",
       },
