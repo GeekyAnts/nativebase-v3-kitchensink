@@ -15,3 +15,5 @@ If you are on Android, you can run this in your `expo-go` app and scan the QR at
 ## Running it on iOS or Web
 
 If you are on iOS or Web, you can checkout this [link](https://kitchensink.nativebase.io/).
+
+#demo
