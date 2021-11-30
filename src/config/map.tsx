@@ -667,7 +667,7 @@ export const mapping = {
     basic: require("../components/NativeBaseComponents/KeyboardAvoidingView"),
     components: [
       {
-        component: "",
+        component: require("../nb/components/basic/KeyboardAvoidingView/Kitchensink-Basic"),
         title: "Basic",
         description: "",
       },
