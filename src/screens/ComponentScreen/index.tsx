@@ -1,5 +1,5 @@
-import React from 'react';
-import { ScrollView } from 'react-native';
+import React from "react";
+import { ScrollView } from "react-native";
 import {
   Heading,
   VStack,
@@ -8,10 +8,10 @@ import {
   useColorModeValue,
   Divider,
   Flex,
-} from 'native-base';
-import { mapping } from '../../config/map';
-import { StackNavigationProp } from '@react-navigation/stack';
-import { Layout } from '../../components/Layout';
+} from "native-base";
+import { mapping } from "../../config/map";
+import { StackNavigationProp } from "@react-navigation/stack";
+import { Layout } from "../../components/Layout";
 
 export function Examples({
   route,
@@ -32,14 +32,14 @@ export function Examples({
       navigateTo="Kitchensink | NativeBase"
     >
       <ScrollView
-        contentContainerStyle={{ width: '100%' }}
+        contentContainerStyle={{ width: "100%" }}
         showsVerticalScrollIndicator={false}
       >
         <VStack w="100%">
           {component.components.map((element: any, index: number) => (
             <Box
               shadow={1}
-              bg={useColorModeValue('white', 'blueGray.700')}
+              bg={useColorModeValue("white", "blueGray.700")}
               my={2}
               mx={3}
               borderRadius={16}
@@ -48,12 +48,12 @@ export function Examples({
                 <Heading
                   size="md"
                   p={4}
-                  color={colorMode == 'dark' ? 'gray.100' : 'trueGray.700'}
+                  color={colorMode == "dark" ? "gray.100" : "trueGray.700"}
                 >
                   {element.title}
                 </Heading>
                 <Divider
-                  bg={colorMode == 'dark' ? 'blueGray.500' : 'warmGray.200'}
+                  bg={colorMode == "dark" ? "blueGray.500" : "warmGray.200"}
                 />
                 <Flex
                   nativeID="1111"
@@ -63,6 +63,11 @@ export function Examples({
                   d="flex"
                 >
                   <element.component.Example />
+                  {element.title === "Slide Fade" ? (
+                    <Box h="200" w="100"></Box>
+                  ) : (
+                    <></>
+                  )}
                 </Flex>
               </VStack>
             </Box>
