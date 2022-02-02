@@ -851,7 +851,7 @@ export const mapping = {
       },
       {
         component: require("../nb/components/primitives/Pressable/Events"),
-        title: "Basic",
+        title: "Events",
         description: "",
       },
     ],
