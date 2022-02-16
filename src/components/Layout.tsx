@@ -12,7 +12,7 @@ import {
 } from 'native-base';
 import { Floaters } from '../components/Floaters';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { EvilIcons } from '@expo/vector-icons';
+import { EvilIcons } from '@native-base/icons';
 
 export const Layout = ({
   children,
