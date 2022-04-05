@@ -39,7 +39,7 @@ export function Examples({
           {component.components.map((element: any, index: number) => (
             <Box
               shadow={1}
-              bg={useColorModeValue("white", "blueGray.700")}
+              bg={useColorModeValue("white", "blueGray.600")}
               my={2}
               mx={3}
               borderRadius={16}
@@ -55,7 +55,7 @@ export function Examples({
                 <Divider
                   bg={colorMode == "dark" ? "blueGray.500" : "warmGray.200"}
                 />
-                <Flex align="center" p={6} justify="center" d="flex">
+                <Flex align="center" p={6} justify="center">
                   <element.component.Example />
                   {element.title === "Slide Fade" ? (
                     <Box h="200" w="100"></Box>

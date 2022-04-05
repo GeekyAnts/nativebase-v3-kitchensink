@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Box,
   useColorMode,
@@ -9,10 +9,11 @@ import {
   Pressable,
   ArrowBackIcon,
   Link,
-} from 'native-base';
-import { Floaters } from '../components/Floaters';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { EvilIcons } from '@native-base/icons';
+  useColorModeValue,
+} from "native-base";
+import { Floaters } from "../components/Floaters";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { EvilIcons } from "@native-base/icons";
 
 export const Layout = ({
   children,
@@ -43,11 +44,11 @@ export const Layout = ({
       <Box
         {...props}
         flex={1}
-        flexBasis="0" 
+        flexBasis="0"
         px={4}
         mx="auto"
-        pt={navigation ? '70px' : 0}
-        w={{ base: '100%', md: '768px', lg: '1000px', xl: '1080px' }}
+        pt={navigation ? "70px" : 0}
+        w={{ base: "100%", md: "768px", lg: "1000px", xl: "1080px" }}
       >
         <HStack
           position="absolute"
@@ -64,21 +65,28 @@ export const Layout = ({
                 navigation && navigation.navigate(navigateTo);
               }}
               _web={{
-                cursor: 'pointer',
+                cursor: "pointer",
               }}
             >
-              {title && <ArrowBackIcon mx={2} />}
+              {title && (
+                <ArrowBackIcon
+                  mx={3}
+                  size={5}
+                  color={useColorModeValue("black", "white")}
+                />
+              )}
             </Pressable>
+
             <Heading
-              color={colorMode == 'dark' ? 'white' : 'gray.800'}
+              color={colorMode == "dark" ? "white" : "gray.800"}
               _web={{ py: 2 }}
               isTruncated
               numberOfLines={1}
               flex={1}
               // @ts-ignore
-              style={{ wordWrap: 'normal' }}
+              style={{ wordWrap: "normal" }}
             >
-              {title ? title : 'NativeBase'}
+              {title ? title : "NativeBase"}
             </Heading>
             {title && (
               <Box mr={2} ml={6} mt={{ base: 1, lg: 3 }} alignItems="flex-end">
@@ -91,14 +99,15 @@ export const Layout = ({
                 >
                   <Text bold>Docs</Text>
                   <Icon
-                    as={<EvilIcons name="external-link" size={24} />}
+                    as={<EvilIcons name="external-link" />}
                     _light={{
-                      color: 'black',
+                      color: "black",
                     }}
                     _dark={{
-                      color: 'white',
+                      color: "white",
                     }}
                     fontWeight={800}
+                    size="8"
                   />
                 </Link>
               </Box>
