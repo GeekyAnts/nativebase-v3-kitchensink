@@ -23,7 +23,7 @@
 		"expo-status-bar": "~1.0.4",
 		"expo-updates": "~0.5.4",
 		"fs-extra": "^10.0.0",
-		"native-base": "3.4.0-rc.1",
+		"native-base": "3.4.0-rc.12",
 		"react": "16.13.1",
 		"react-dom": "16.13.1",
 		"react-native": "0.63.4",
