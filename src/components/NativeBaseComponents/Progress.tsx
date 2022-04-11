@@ -1,5 +1,5 @@
-import React from 'react';
-import { Progress } from 'native-base';
+import React from "react";
+import { Progress } from "native-base";
 
 export const Example = () => {
   return (
@@ -8,7 +8,7 @@ export const Example = () => {
       w="80%"
       value={60}
       bg="white"
-      colorScheme="lighBlue"
+      colorScheme="lightBlue"
     />
   );
 };
