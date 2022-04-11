@@ -1330,12 +1330,12 @@ export const mapping = {
         description: "",
       },
       {
-        component: require("../nb/components/composites/Toast/ToastStatus"),
+        component: require("../nb/components/composites/Toast/StatusRecipies"),
         title: "Toast Status",
         description: "",
       },
       {
-        component: require("../nb/components/composites/Toast/ToastVariants"),
+        component: require("../nb/components/composites/Toast/VariantRecipies"),
         title: "Toast Variants",
         description: "",
       },
