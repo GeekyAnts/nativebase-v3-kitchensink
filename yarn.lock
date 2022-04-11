@@ -2873,7 +2873,7 @@
     "@react-aria/utils" "^3.6.0"
     "@react-native-aria/utils" "^0.2.6"
 
-"@react-native-aria/listbox@0.2.4-alpha.3":
+"@react-native-aria/listbox@^0.2.4-alpha.3":
   version "0.2.4-alpha.3"
   resolved "https://registry.yarnpkg.com/@react-native-aria/listbox/-/listbox-0.2.4-alpha.3.tgz#1a8df0de6c932c8143ea73e43713a5d37070203c"
   integrity sha512-e/y+Wdoyy/PbpFj4DVYDYMsKI+uUqnZ/0yLByqHQvzs8Ys8o69CQkyEYzHhxvFT5lCLegkLbuQN2cJd8bYNQsA==
@@ -8039,10 +8039,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-base@3.4.0-rc.1:
-  version "3.4.0-rc.1"
-  resolved "https://registry.yarnpkg.com/native-base/-/native-base-3.4.0-rc.1.tgz#d648349ec4b92d25ca05cac6b609bf2b45027fda"
-  integrity sha512-rVqGto6zODClYKYPfQztwDF0ojF8ksQ7/CvCOe7QbjcrElt/lSDE3j+tn1U4keGvaj8jzgNd7vc9BB2pIYeVZA==
+native-base@3.4.0-rc.12:
+  version "3.4.0-rc.12"
+  resolved "https://registry.yarnpkg.com/native-base/-/native-base-3.4.0-rc.12.tgz#49f305a8d7aed9e571f6abb3c3b4f076015e6213"
+  integrity sha512-EG3wQx45/0Dront01c4DeSAREbJtgWnLRhq/cQg1OTZi1QcjZXmv7hI55uheJaN/jNm0DDQFfakvuetE4jM1SA==
   dependencies:
     "@react-aria/focus" "^3.2.3"
     "@react-aria/utils" "^3.6.0"
@@ -8052,7 +8052,7 @@ native-base@3.4.0-rc.1:
     "@react-native-aria/combobox" "^0.2.4-alpha.0"
     "@react-native-aria/focus" "^0.2.4"
     "@react-native-aria/interactions" "^0.2.2"
-    "@react-native-aria/listbox" "0.2.4-alpha.3"
+    "@react-native-aria/listbox" "^0.2.4-alpha.3"
     "@react-native-aria/overlays" "0.3.3-rc.0"
     "@react-native-aria/radio" "^0.2.4"
     "@react-native-aria/slider" "^0.2.5-alpha.1"
