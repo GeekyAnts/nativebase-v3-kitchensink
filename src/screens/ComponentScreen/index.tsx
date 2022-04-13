@@ -39,7 +39,7 @@ export function Examples({
           {component.components.map((element: any, index: number) => (
             <Box
               shadow={1}
-              bg={useColorModeValue("white", "blueGray.600")}
+              bg={useColorModeValue("white", "blueGray.800")}
               my={2}
               mx={3}
               borderRadius={16}
