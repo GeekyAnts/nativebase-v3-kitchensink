@@ -55,7 +55,7 @@ export function Examples({
                 <Divider
                   bg={colorMode == "dark" ? "blueGray.500" : "warmGray.200"}
                 />
-                <Flex align="center" p={6} justify="center">
+                <Flex align="center" p={[4, 6]} justify="center">
                   <element.component.Example />
                   {element.title === "Slide Fade" ? (
                     <Box h="200" w="100"></Box>

@@ -17,7 +17,7 @@ export const Floaters = () => {
     <>
       <Logo
         size={{ base: 64, md: 450 }}
-        zIndex={-1}
+        zIndex={-99}
         opacity={0.4}
         _ios={{
           opacity: 0.6,

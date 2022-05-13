@@ -12,7 +12,7 @@ import {
   useColorModeValue,
 } from "native-base";
 import { Floaters } from "../components/Floaters";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { EvilIcons } from "@native-base/icons";
 
 export const Layout = ({
@@ -26,21 +26,10 @@ export const Layout = ({
   ...props
 }: any) => {
   const { colorMode, toggleColorMode } = useColorMode();
-  const safeArea = useSafeAreaInsets();
 
   return (
     <>
-      <Box
-        {..._status}
-        height={safeArea.top}
-        _web={{
-          pt: {
-            base: 6,
-            sm: 6,
-            md: 0,
-          },
-        }}
-      />
+      <SafeAreaView></SafeAreaView>
       <Box
         {...props}
         flex={1}
@@ -90,13 +79,7 @@ export const Layout = ({
             </Heading>
             {title && (
               <Box mr={2} ml={6} mt={{ base: 1, lg: 3 }} alignItems="flex-end">
-                <Link
-                  href={doclink}
-                  isExternal
-                  // mt={4}
-
-                  alignItems="center"
-                >
+                <Link href={doclink} isExternal alignItems="center">
                   <Text bold>Docs</Text>
                   <Icon
                     as={<EvilIcons name="external-link" />}
