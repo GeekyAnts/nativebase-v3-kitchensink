@@ -508,7 +508,7 @@ export const mapping = {
   HStack: {
     title: "HStack",
     description: "Rows structure",
-    doclink: "https://docs.nativebase.io/h-stack",
+    doclink: "https://docs.nativebase.io/hstack",
     basic: require("../components/NativeBaseComponents/HStack"),
     components: [
       {
@@ -1367,7 +1367,7 @@ export const mapping = {
   Transitions: {
     title: "Transitions",
     description: "",
-    doclink: "https://docs.nativebase.io/transition",
+    doclink: "https://docs.nativebase.io/presence-transition",
     basic: require("../components/NativeBaseComponents/Transitions"),
     components: [
       {
@@ -1423,7 +1423,7 @@ export const mapping = {
   VStack: {
     title: "VStack",
     description: "",
-    doclink: "https://docs.nativebase.io/v-stack",
+    doclink: "https://docs.nativebase.io/vstack",
     basic: require("../components/NativeBaseComponents/VStack"),
     components: [
       {
@@ -1436,7 +1436,7 @@ export const mapping = {
   ZStack: {
     title: "ZStack",
     description: "",
-    doclink: "https://docs.nativebase.io/z-stack",
+    doclink: "https://docs.nativebase.io/zstack",
     basic: require("../components/NativeBaseComponents/ZStack"),
     components: [
       // {

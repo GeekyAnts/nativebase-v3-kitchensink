@@ -1,11 +1,11 @@
-import { Fab, Icon, NativeBaseProvider, Box } from 'native-base';
-import React from 'react';
-import { AntDesign } from '@expo/vector-icons';
+import { Fab, Icon, NativeBaseProvider, Box } from "native-base";
+import React from "react";
+import { AntDesign } from "@expo/vector-icons";
 
 export const Example = () => {
   return (
     <NativeBaseProvider>
-      <Box position="relative" w="100%" h={200}>
+      <Box position="relative" w={100} h={200}>
         <Fab
           right={70}
           bottom={50}
