@@ -426,6 +426,18 @@ export function MasonLayout({
           />
           <StoryBook
             navigation={navigation}
+            name="SimpleGrid"
+            minH={40}
+            _box={{
+              lightGrad: ["orange.400", "amber.200"],
+              darkGrad: ["orange.600", "amber.300"],
+            }}
+            _heading={{
+              color: "amber.100",
+            }}
+          />
+          <StoryBook
+            navigation={navigation}
             name="Skeleton"
             minH={48}
             _box={{

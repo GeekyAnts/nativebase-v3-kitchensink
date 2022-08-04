@@ -1001,6 +1001,34 @@ export const mapping = {
       },
     ],
   },
+  SimpleGrid: {
+    title: "SimpleGrid",
+    description: "",
+    doclink: "https://docs.nativebase.io",
+    basic: require("../components/NativeBaseComponents/Skeleton"),
+    components: [
+      {
+        component: require("../nb/components/composites/SimpleGrid/NumberOfColumns"),
+        title: "Basic",
+        description: "",
+      },
+      {
+        component: require("../nb/components/composites/SimpleGrid/ResponsiveColumns"),
+        title: "Responsive Columns",
+        description: "",
+      },
+      {
+        component: require("../nb/components/composites/SimpleGrid/Spacing"),
+        title: "Spacing",
+        description: "",
+      },
+      {
+        component: require("../nb/components/composites/SimpleGrid/MinWidthColumns"),
+        title: "Minimum Width Columns",
+        description: "",
+      },
+    ],
+  },
   Skeleton: {
     title: "Skeleton",
     description: "",

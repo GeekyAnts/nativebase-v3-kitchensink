@@ -2,7 +2,7 @@ import React from 'react';
 import { Select, Box, CheckIcon, Center } from 'native-base';
 
 export const Example = () => {
-  const [service, setService] = React.useState('');
+  let [service, setService] = React.useState('');
 
   return (
     <Center>

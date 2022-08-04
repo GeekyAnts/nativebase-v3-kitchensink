@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input, Icon, Stack, Pressable } from 'native-base';
+import { Input, Icon, Stack } from 'native-base';
 import { MaterialIcons } from '@expo/vector-icons';
 
 export const Example = () => {
@@ -22,16 +22,13 @@ export const Example = () => {
         w={{ base: '75%', md: '25%' }}
         type={show ? 'text' : 'password'}
         InputRightElement={
-          <Pressable onPress={() => setShow(!show)}>
-            <Icon
-              as={
-                <MaterialIcons name={show ? 'visibility' : 'visibility-off'} />
-              }
-              size={5}
-              mr="2"
-              color="muted.400"
-            />
-          </Pressable>
+          <Icon
+            as={<MaterialIcons name={show ? 'visibility' : 'visibility-off'} />}
+            size={5}
+            mr="2"
+            color="muted.400"
+            onPress={() => setShow(!show)}
+          />
         }
         placeholder="Password"
       />
