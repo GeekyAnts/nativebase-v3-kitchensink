@@ -1179,64 +1179,64 @@ export const mapping = {
       // },
     ],
   },
-  Tabs: {
-    title: "Tabs",
-    description: "",
-    doclink: "https://docs.nativebase.io/building-tab-view",
-    basic: require("../components/NativeBaseComponents/Tabs"),
-    components: [
-      {
-        component: require("../nb/components/composites/Tabs/Colors"),
-        title: "Colored Tabs",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/Composition"),
-        title: "Composition",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/Controlled"),
-        title: "Controlled Tabs",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/FittedTab"),
-        title: "Fitted Tab",
-        description: "",
-      },
-      // {
-      // 	component: require("../nb/components/composites/Tabs/IconTabs"),
-      // 	title: "Icon Tabs",
-      // 	description: "",
-      // },
-      {
-        component: require("../nb/components/composites/Tabs/Size"),
-        title: "Sizes",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/TabAlignment"),
-        title: "Tab Alignment",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/TabBarOnly"),
-        title: "Tab Bar Only",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/Usage"),
-        title: "Usage",
-        description: "",
-      },
-      {
-        component: require("../nb/components/composites/Tabs/Variants"),
-        title: "Variants",
-        description: "",
-      },
-    ],
-  },
+  // Tabs: {
+  //   title: "Tabs",
+  //   description: "",
+  //   doclink: "https://docs.nativebase.io/building-tab-view",
+  //   basic: require("../components/NativeBaseComponents/Tabs"),
+  //   components: [
+  //     {
+  //       component: require("../nb/components/composites/Tabs/Colors"),
+  //       title: "Colored Tabs",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/Composition"),
+  //       title: "Composition",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/Controlled"),
+  //       title: "Controlled Tabs",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/FittedTab"),
+  //       title: "Fitted Tab",
+  //       description: "",
+  //     },
+  //     // {
+  //     // 	component: require("../nb/components/composites/Tabs/IconTabs"),
+  //     // 	title: "Icon Tabs",
+  //     // 	description: "",
+  //     // },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/Size"),
+  //       title: "Sizes",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/TabAlignment"),
+  //       title: "Tab Alignment",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/TabBarOnly"),
+  //       title: "Tab Bar Only",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/Usage"),
+  //       title: "Usage",
+  //       description: "",
+  //     },
+  //     {
+  //       component: require("../nb/components/composites/Tabs/Variants"),
+  //       title: "Variants",
+  //       description: "",
+  //     },
+  //   ],
+  // },
   Text: {
     title: "Text",
     description: "",
