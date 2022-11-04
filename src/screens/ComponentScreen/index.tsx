@@ -43,8 +43,9 @@ export function Examples({
               my={2}
               mx={3}
               borderRadius={16}
+              key={`${index}-key`}
             >
-              <VStack key={index}>
+              <VStack>
                 <Heading
                   size="md"
                   p={4}
