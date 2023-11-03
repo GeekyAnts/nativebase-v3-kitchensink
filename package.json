@@ -13,7 +13,7 @@
 		"preset": "jest-expo"
 	},
 	"dependencies": {
-		"@gluestack-ui/themed-native-base": "^0.1.31-alpha.11",
+		"@gluestack-ui/themed-native-base": "^0.1.31-alpha.13",
 		"@native-base/icons": "^0.0.10",
 		"@react-native-community/masked-view": "0.1.10",
 		"@react-navigation/native": "^5.9.4",

@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import {
   Box,
   Center,
   Heading,
   Pressable,
   useColorModeValue,
-} from 'native-base';
-import { mapping } from '../../config/map';
+} from "native-base";
+import { mapping } from "../../config/map";
 
 export function StoryBook({
   navigation,
@@ -17,14 +17,14 @@ export function StoryBook({
 }: any) {
   const Example = mapping[name].basic.Example;
   const gradColors = useColorModeValue(lightGrad, darkGrad) || [
-    'gray.700',
-    'white',
+    "gray.700",
+    "white",
   ];
 
   return (
     <Box
       _web={{
-        cursor: 'pointer',
+        cursor: "pointer",
       }}
       flex={1}
       {...props}
@@ -36,7 +36,7 @@ export function StoryBook({
       <Pressable
         flex={1}
         onPress={() =>
-          navigation.navigate('Component | NativeBase', {
+          navigation.navigate("Component | NativeBase", {
             name: name,
           })
         }
@@ -44,13 +44,13 @@ export function StoryBook({
         <Box
           flex={1}
           {..._box}
-          bg={{
-            linearGradient: {
-              colors: gradColors,
-              start: [0, 0],
-              end: [0, 1],
-            },
-          }}
+          // bg={{
+          //   linearGradient: {
+          //     colors: gradColors,
+          //     start: [0, 0],
+          //     end: [0, 1],
+          //   },
+          // }}
           pointerEvents="none"
         >
           <Center flex={1}>
@@ -59,7 +59,7 @@ export function StoryBook({
               position="absolute"
               top={2}
               left={2}
-              style={{ textTransform: 'uppercase' }}
+              style={{ textTransform: "uppercase" }}
               color={gradColors[1]}
               {..._heading}
               w="90%"
